@@ -48,12 +48,16 @@ See also:
    :undoc-members:
 ```
 
-**id** - unique object ID.
+**id** - unique object ID. This is the value referenced by **Label.objectId / object_id**.
 
 **name** - ingame object name, many different objects can have the same name (e.g. Medikit, Clip, Zombie).
 
+**category** - category of the object (e.g. "Monster", "Weapon", "Player"). Category "Self" is assigned to current player. Note: added in 1.3.1.
+
+**sector_id** - ID of the sector the object currently belongs to (same as corresponding **Sector.id**). Note: added in 1.3.1.
+
 See also:
-- [`DoomGame.set_objects_info_enabled`](./doom_game.md#vizdoom.DoomGame.set_sectors_info_enabled),
+- [`DoomGame.set_objects_info_enabled`](./doom_game.md#vizdoom.DoomGame.set_objects_info_enabled),
 - [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
@@ -82,6 +86,8 @@ Note: added in 1.1.8.
    :members:
    :undoc-members:
 ```
+
+**id** - unique sector ID. This is the value referenced by **Object.sector_id**. Note: added in 1.3.1.
 
 **floor_height** - height of the sector's floor. Note: before 1.3.1 the value of floorHeight was inverted (negative). The bug was fixed in 1.3.1.
 
