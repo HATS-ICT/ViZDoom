@@ -11,7 +11,7 @@ import atexit
 import signal
 import sys
 
-from pettingzoo_wrapper import make
+from vizdoom.pettingzoo_wrapper import make
 
 # Global environment variable for cleanup
 env = None

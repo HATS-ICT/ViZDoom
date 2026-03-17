@@ -23,7 +23,9 @@ from torchrl.envs.transforms import ObservationTransform
 from torchrl.envs.transforms import SelectTransform
 from torchrl.envs.transforms.utils import _set_missing_tolerance
 
-from pettingzoo_wrapper import make
+# from pettingzoo_wrapper import make
+from vizdoom.pettingzoo_wrapper import make
+
 
 
 class VizdoomExperiment(Experiment):
@@ -244,7 +246,7 @@ ALGOS: Dict[str, Any] = {
 def main():
     ap = ArgumentParser()
     # Env args
-    ap.add_argument("--scenario", type=str, default="pitfall")
+    ap.add_argument("--scenario", type=str, default="remedy_rush_multi_agent")
     ap.add_argument("--num_agents", type=int, default=2)
     ap.add_argument("--resolution", type=str, default="160X120")
     ap.add_argument("--skip_frames", type=int, default=4)
