@@ -1,0 +1,1858 @@
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py:857: FutureWarnin
+g: The default behavior of TransformedEnv will change in version 0.9. Nested TransformedEnvs will no longer be automatic
+ally unwrapped by default. To prepare for this change, use set_auto_unwrap_transformed_env(val: bool) as a decorator or
+context manager, or set the environment variable AUTO_UNWRAP_TRANSFORMED_ENV to 'False'.
+  instance: EnvBase = super(_EnvPostInit, self).__call__(*args, **kwargs)
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py:1045: DeprecationWarning: S
+yncDataCollector has been deprecated and will be removed in v0.13. Please use Collector instead.
+  warnings.warn(
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py:911: UserWarning: total_f
+rames (3000000) is not exactly divisible by frames_per_batch (1024). This means 320 additional frames will be collected.
+To silence this message, set the environment variable RL_WARNINGS to False.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+Total players: 2
+
+Total players: 2
+
+Exchanging game information.
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Process SpawnProcess-26:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2701, in _r
+un_worker_pipe_shared_mem
+    cur_td = env.reset(
+             ^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3001, in reset
+    tensordict_reset = self._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 13
+13, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 556, in
+_reset
+    observation_dict, info_dict = self._reset_parallel(**kwargs)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 602, in
+_reset_parallel
+    return self._env.reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/reward_wrappers.py", line 100, in reset
+    obs, infos = self.env.reset(seed=seed, options=options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/video_recorder.py", line 77, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 363, in reset
+    self._barrier()
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 348, in _barrie
+r
+    raise TimeoutError(
+TimeoutError: Barrier timeout after 30.0s. Stuck agent: 1. Dead agents: []
+Traceback (most recent call last):
+Exception ignored in: <function EnvBase.__del__ at 0x7fb9c3fbd120>
+  File "/home/sohans/ViZDoom/examples/python/pettingzoo_learning.py", line 416, in <module>
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3987, in __del__
+    main()
+  File "/home/sohans/ViZDoom/examples/python/pettingzoo_learning.py", line 401, in main
+    experiment = VizdoomExperiment(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 371,
+in __init__
+    self.close()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 847, in
+close
+    self._setup()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 394,
+in _setup
+    self._setup_collector()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 549,
+in _setup_collector
+    self._env.close()
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/reward_wrappers.py", line 129, in close
+    self.collector = SyncDataCollector(
+    return self.env.close()
+                     ^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py", line 1050, in __c
+all__
+           ^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/pettingzoo/utils/wrappers/base_parallel.py", li
+ne 40, in close
+    return self.env.close()
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 458, in close
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 545, in __
+init__
+    ev.set()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/synchronize.py", line 345, in set
+    self._make_shuttle()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 1012, in _
+make_shuttle
+    self._cond.notify_all()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/synchronize.py", line 304, in notify_all
+    self._carrier = self.env.reset()
+    self.notify(n=sys.maxsize)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/synchronize.py", line 297, in notify
+    self._woken_count.acquire()       # wait for a sleeper to wake
+                    ^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3001, in reset
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+    tensordict_reset = self._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 13
+13, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decor
+ate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 72, in deco
+rated_fun
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2418, in _r
+eset
+    self._wait_for_workers(list(zip(*outs))[0])
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 1998, in _w
+ait_for_workers
+    if self._events[wi].wait(timeout=slice_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/synchronize.py", line 356, in wait
+    self._cond.wait(timeout)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/synchronize.py", line 268, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-22:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-21:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-25:
+Process SpawnProcess-24:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-23:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-17:
+Traceback (most recent call last):
+Process SpawnProcess-19:
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-13:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-14:
+Process SpawnProcess-15:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-20:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-12:
+Process SpawnProcess-18:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-16:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Process SpawnProcess-11:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2642, in _r
+un_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/connection.py", line 948, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracke
+r: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$ python examples/python/pettingzoo_learning.py   --algo mappo   --scenario remedy_
+rush_multi_agent   --num_agents 2   --resolution 160X120   --skip_frames 4   --async-mode   --host_address 127.0.0.1   -
+-netmode 1   --ticrate 35   --train_device cuda   --sampling_device cpu   --buffer_device cpu   --num_envs 16   --parall
+el_collection   --rollout_steps 1024   --batch_size 32768   --num_minibatches 8   --num_epochs 10   --enable_video False
+   --total_steps 3000000
+pygame-ce 2.5.7 (SDL 2.32.10, Python 3.11.15)
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py:281: UserWarning: Petti
+ngZoo in TorchRL is tested using version == 1.24.3 , If you are using a different version and are experiencing compatibi
+lity issues,please raise an issue in the TorchRL github.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py:857: FutureWarnin
+g: The default behavior of TransformedEnv will change in version 0.9. Nested TransformedEnvs will no longer be automatic
+ally unwrapped by default. To prepare for this change, use set_auto_unwrap_transformed_env(val: bool) as a decorator or
+context manager, or set the environment variable AUTO_UNWRAP_TRANSFORMED_ENV to 'False'.
+  instance: EnvBase = super(_EnvPostInit, self).__call__(*args, **kwargs)
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py:1045: DeprecationWarning: S
+yncDataCollector has been deprecated and will be removed in v0.13. Please use Collector instead.
+  warnings.warn(
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py:911: UserWarning: total_f
+rames (3000000) is not exactly divisible by frames_per_batch (1024). This means 320 additional frames will be collected.
+To silence this message, set the environment variable RL_WARNINGS to False.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Exchanging game information.
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Process SpawnProcess-14:
+Process SpawnProcess-18:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2701, in _r
+un_worker_pipe_shared_mem
+    cur_td = env.reset(
+             ^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2701, in _r
+un_worker_pipe_shared_mem
+    cur_td = env.reset(
+             ^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3001, in reset
+    tensordict_reset = self._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3001, in reset
+    tensordict_reset = self._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 13
+13, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 13
+13, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 556, in
+_reset
+    observation_dict, info_dict = self._reset_parallel(**kwargs)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 556, in
+_reset
+    observation_dict, info_dict = self._reset_parallel(**kwargs)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 602, in
+_reset_parallel
+    return self._env.reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/reward_wrappers.py", line 100, in reset
+    obs, infos = self.env.reset(seed=seed, options=options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 602, in
+_reset_parallel
+    return self._env.reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/video_recorder.py", line 77, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/reward_wrappers.py", line 100, in reset
+    obs, infos = self.env.reset(seed=seed, options=options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 363, in reset
+    self._barrier()
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/video_recorder.py", line 77, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 348, in _barrie
+r
+    raise TimeoutError(
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 363, in reset
+    self._barrier()
+TimeoutError: Barrier timeout after 30.0s. Stuck agent: 0. Dead agents: []
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 348, in _barrie
+r
+    raise TimeoutError(
+TimeoutError: Barrier timeout after 30.0s. Stuck agent: 0. Dead agents: []
+

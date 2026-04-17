@@ -1,0 +1,883 @@
+(base) sohans@hats-01-ub:~/doom-marl-cl$ conda activate vizdoom
+(vizdoom) sohans@hats-01-ub:~/doom-marl-cl$ export LD_LIBRARY_PATH=/home/sohans/anaconda3/lib:$LD_LIBRARY_PATH
+(vizdoom) sohans@hats-01-ub:~/doom-marl-cl$ python examples/python/pettingzoo_learning.py   --algo mappo   --scenario remedy_rush_multi_agent   --num_agents 2   --resolution 160
+X120   --skip_frames 4   --async-mode   --host_address 127.0.0.1   --netmode 1   --ticrate 35   --train_device cuda   --sampling_device cpu   --buffer_device cpu   --num_envs 16
+   --parallel_collection   --rollout_steps 1024   --batch_size 32768   --num_minibatches 8   --num_epochs 10   --enable_video False   --total_steps 3000000
+python: can't open file '/home/sohans/doom-marl-cl/examples/python/pettingzoo_learning.py': [Errno 2] No such file or directory
+(vizdoom) sohans@hats-01-ub:~/doom-marl-cl$ cd ~/ViZDoom/
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$ python examples/python/pettingzoo_learning.py   --algo mappo   --scenario remedy_rush_multi_agent   --num_agents 2   --resolution 160X120
+  --skip_frames 4   --async-mode   --host_address 127.0.0.1   --netmode 1   --ticrate 35   --train_device cuda   --sampling_device cpu   --buffer_device cpu   --num_envs 16   --
+parallel_collection   --rollout_steps 1024   --batch_size 32768   --num_minibatches 8   --num_epochs 10   --enable_video False   --total_steps 3000000
+pygame-ce 2.5.7 (SDL 2.32.10, Python 3.11.15)
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py:281: UserWarning: PettingZoo in TorchRL is tested using version == 1.24.3 , If y
+ou are using a different version and are experiencing compatibility issues,please raise an issue in the TorchRL github.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py:857: FutureWarning: The default behavior of TransformedEnv will change in
+version 0.9. Nested TransformedEnvs will no longer be automatically unwrapped by default. To prepare for this change, use set_auto_unwrap_transformed_env(val: bool) as a decorat
+or or context manager, or set the environment variable AUTO_UNWRAP_TRANSFORMED_ENV to 'False'.
+  instance: EnvBase = super(_EnvPostInit, self).__call__(*args, **kwargs)
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py:1045: DeprecationWarning: SyncDataCollector has been deprecated and will be removed
+in v0.13. Please use Collector instead.
+  warnings.warn(
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py:911: UserWarning: total_frames (3000000) is not exactly divisible by frames_per_ba
+tch (1024). This means 320 additional frames will be collected.To silence this message, set the environment variable RL_WARNINGS to False.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: -Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: sohamhan (sohamhan-usc) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /home/sohans/ViZDoom/checkpoints/mappo_remedy_rush_multi_agent_cnn__23390af7_26_03_23-15_17_40/wandb/run-20260323_151843-mappo_remedy_rush_mu
+lti_agent_2agents_seed0_20260323_151842
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mappo_remedy_rush_multi_agent_2agents_seed0_20260323_151842
+wandb: ⭐️ View project at https://wandb.ai/sohamhan-usc/benchmarl-vizdoom
+wandb: 🚀 View run at https://wandb.ai/sohamhan-usc/benchmarl-vizdoom/runs/mappo_remedy_rush_multi_agent_2agents_seed0_20260323_151842
+  0%|                                                                                          | 0/2930 [00:00<?, ?it/s]/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-p
+ackages/benchmarl/experiment/logger.py:125: UserWarning: No episode terminated this iteration and thus the episode rewards will be NaN, this is normal if your horizon is longer
+then one iteration. Learning is proceeding fine.The episodes will probably terminate in a future iteration.
+  warnings.warn(
+2026-03-23 15:18:52,164 [torchrl][INFO]    Initialized LazyTensorStorage with torch.Size([1024]) shape [END]
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+mean return = nan:  21%|███████████▉                                             | 614/2930 [1:51:08<5:19:25,  8.28s/it]
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+wandb: ⢿ Encoding video...
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[medi
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+wandb: ⢿ Encoding video...
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[medi
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "pip install wandb[media]"
+mean return = nan:  26%|██████████████▊                                         | 775/2930 [2:20:48<15:56:51, 26.64s/it]Process SpawnProcess-18:
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2701, in _run_worker_pipe_shared_mem
+    cur_td = env.reset(
+             ^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3001, in reset
+    tensordict_reset = self._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 1313, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 556, in _reset
+    observation_dict, info_dict = self._reset_parallel(**kwargs)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py", line 602, in _reset_parallel
+    return self._env.reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/reward_wrappers.py", line 100, in reset
+    obs, infos = self.env.reset(seed=seed, options=options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/video_recorder.py", line 77, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 363, in reset
+    self._barrier()
+  File "/home/sohans/ViZDoom/bin/python3.11/vizdoom/pettingzoo_wrapper/base_pettingzoo_env_shm.py", line 348, in _barrier
+    raise TimeoutError(
+TimeoutError: Barrier timeout after 30.0s. Stuck agent: 0. Dead agents: []
+
+
+Experiment failed and is closing gracefully
+
+
+wandb:
+wandb: Run history:
+wandb:  collection/agent/reward/episode_reward_max ▂▂▄▃▄▃▆▄▁▃▅▁▅▄█▂▄▄▄▄▄▄▅▂▄▄▅▅▅█▃▁▅▅▅▂▅▃▅▅
+wandb: collection/agent/reward/episode_reward_mean ▁▆▄▇▇▆▆▆▆▇▄▄▇▇▇▄▇▄▇▇▇▄▇▆▄▄▇▆█▇▄▇▇▄▇▇█▆▄▇
+wandb:  collection/agent/reward/episode_reward_min ▃▁▃▅▅▆▅▂▃▄▄▅▄█▆▅▂▅█▆▇▆▆▆▆▆▆▃▃▄▆▆▇▇▇▇▃▂▅▆
+wandb:        collection/reward/episode_reward_max ▁▂▃▂▅▄▅▇▃▄▄▅▃▅▄▅▆▃▃▆▄▅▅▃▅▅▄▆▃▃▅▂▅▅▅▅█▅▄▅
+wandb:       collection/reward/episode_reward_mean ▁▆▁▆▆▆▅▅▅▅▅█▆▁▆▆▆▆▂▆▅▆▆▇▇▅▂▅▂▅▁▆▇▆▇▇▂▅▅▅
+wandb:        collection/reward/episode_reward_min ▁▂▃▅▄▃▂▂▅▄▄▅▂▂▅▅▅▇▅▅▄█▅▅▅▅▅▂▆▂▅▂▅▅▆▂▆▆▄▅
+wandb:                collection/reward/reward_max ▆▂▂▂▂▆▁▂▂▆▂▆▂▂▂▂▆▆▆▆▆▇▆▆▆▂▂▆█▆▆▅▆▂▆▆▂▆▃▂
+wandb:               collection/reward/reward_mean ▆▆▇▇▇▇▁▆▇▇▆▃▇▇▆▇▆▇▇█▇▇▆▆▇▅▇▆▃▆▇█▇▇██▇▇▇▇
+wandb:                collection/reward/reward_min ▄██▂█████████████▃███████▁██████████████
+wandb:                     counters/current_frames ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                                         +24 ...
+wandb:
+wandb: Run summary:
+wandb:  collection/agent/reward/episode_reward_max 39
+wandb: collection/agent/reward/episode_reward_mean 32.125
+wandb:  collection/agent/reward/episode_reward_min 23
+wandb:        collection/reward/episode_reward_max 39
+wandb:       collection/reward/episode_reward_mean 32.125
+wandb:        collection/reward/episode_reward_min 23
+wandb:                collection/reward/reward_max 10
+wandb:               collection/reward/reward_mean 0.1333
+wandb:                collection/reward/reward_min 0
+wandb:                     counters/current_frames 1024
+wandb:                                         +24 ...
+wandb:
+wandb: 🚀 View run mappo_remedy_rush_multi_agent_2agents_seed0_20260323_151842 at: https://wandb.ai/sohamhan-usc/benchmarl-vizdoom/runs/mappo_remedy_rush_multi_agent_2agents_see
+d0_20260323_151842
+wandb: ⭐️ View project at: https://wandb.ai/sohamhan-usc/benchmarl-vizdoom
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./checkpoints/mappo_remedy_rush_multi_agent_cnn__23390af7_26_03_23-15_17_40/wandb/run-20260323_151843-mappo_remedy_rush_multi_agent_2agents_seed0_20260323_1
+51842/logs
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2007, in _wait_for_workers
+    self._shutdown_workers()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 71, in decorated_fun
+    _check_for_faulty_process(self._workers)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/_utils.py", line 485, in _check_for_faulty_process
+    raise RuntimeError(
+RuntimeError: At least one process failed. Check for more infos in the log.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py", line 952, in __iter__
+    yield from self.iterator()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 1406, in iterator
+    tensordict_out = self.rollout()
+                     ^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/_utils.py", line 607, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 1686, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3832, in step_and_maybe_reset
+    tensordict_ = self.maybe_reset(tensordict_)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 3892, in maybe_reset
+    tensordict = self.reset(tensordict, select_reset_only=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/common.py", line 2997, in reset
+    tensordict_reset = self._reset(
+                       ^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 1313, in _reset
+    tensordict_reset = self.base_env._reset(tensordict, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 72, in decorated_fun
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2418, in _reset
+    self._wait_for_workers(list(zip(*outs))[0])
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 2009, in _wait_for_workers
+    raise RuntimeError(f"Cannot proceed, worker {wi} dead.")
+RuntimeError: Cannot proceed, worker 7 dead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sohans/ViZDoom/examples/python/pettingzoo_learning.py", line 416, in <module>
+    main()
+  File "/home/sohans/ViZDoom/examples/python/pettingzoo_learning.py", line 411, in main
+    experiment.run()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 665, in run
+    raise err
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 657, in run
+    self._collection_loop()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/experiment.py", line 694, in _collection_loop
+    batch = next(iterator)
+            ^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py", line 954, in __iter__
+    self.shutdown()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/_utils.py", line 607, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 1851, in shutdown
+    raise e
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py", line 1846, in shutdown
+    self.env.close(raise_if_closed=raise_on_error)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transforms.py", line 1370, in close
+    self.base_env.close(raise_if_closed=raise_if_closed)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 1037, in close
+    self._shutdown_workers()
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/batched_envs.py", line 71, in decorated_fun
+    _check_for_faulty_process(self._workers)
+  File "/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/_utils.py", line 485, in _check_for_faulty_process
+    raise RuntimeError(
+RuntimeError: At least one process failed. Check for more infos in the log.
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$

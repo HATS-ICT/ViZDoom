@@ -1,0 +1,1773 @@
+(base) sohans@hats-01-ub:~/ViZDoom$ conda activate vizdoom
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$ python examples/python/pettingzoo_learning.py \
+>   --train_device cuda \
+>   --sampling_device cpu \
+>   --buffer_device cpu \
+>   --num_envs 16 \
+>   --parallel_collection \
+>   --rollout_steps 1024 \
+>   --batch_size 32768 \
+>   --num_minibatches 8 \
+>   --num_epochs 10 \
+>   --enable_video False
+pygame-ce 2.5.7 (SDL 2.32.10, Python 3.11.15)
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/libs/pettingzoo.py:2
+81: UserWarning: PettingZoo in TorchRL is tested using version == 1.24.3 , If you are using a diff
+erent version and are experiencing compatibility issues,please raise an issue in the TorchRL githu
+b.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/envs/transforms/transform
+s.py:857: FutureWarning: The default behavior of TransformedEnv will change in version 0.9. Nested
+ TransformedEnvs will no longer be automatically unwrapped by default. To prepare for this change,
+ use set_auto_unwrap_transformed_env(val: bool) as a decorator or context manager, or set the envi
+ronment variable AUTO_UNWRAP_TRANSFORMED_ENV to 'False'.
+  instance: EnvBase = super(_EnvPostInit, self).__call__(*args, **kwargs)
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_base.py:1045:
+ DeprecationWarning: SyncDataCollector has been deprecated and will be removed in v0.13. Please us
+e Collector instead.
+  warnings.warn(
+/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/torchrl/collectors/_single.py:911
+: UserWarning: total_frames (1000000) is not exactly divisible by frames_per_batch (1024). This me
+ans 448 additional frames will be collected.To silence this message, set the environment variable
+RL_WARNINGS to False.
+  warnings.warn(
+Waiting for agent 0 (host) to init...
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Exchanging game information.
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Contacting host: /Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Waiting for agent 0 (host) to init...
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+Network game synchronization timeout: 60s.
+Waiting for players: .  [ 1/ 2]Network game synchronization timeout: 60s.
+Got connect from node 1.
+Waiting for players: .. [ 2/ 2]
+Sending all here.
+
+Total players: 2
+
+Waiting for other players: .. [ 2/ 2]
+Console player number: 1
+Received All Here, sending ACK.
+
+Go
+Total players: 2
+
+Console player number: 1
+Received All Here, sending ACK.
+Received "Go."
+
+Total players: 2
+
+Found Player0 (node 1, player 1)
+Found Player1 (node 1, player 2)
+Found Player1 (node 0, player 2)
+
+
+
+
+Agent 0 (host) ready
+Waiting for agent 1 (peer 1) to init...
+Agent 1 (peer 1) ready
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: sohamhan (sohamhan-usc) to https://api.wandb.ai. Use `wandb login -
+-relogin` to force relogin
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /home/sohans/ViZDoom/checkpoints/mappo_remedy_rush_multi_agent
+_cnn__2f598579_26_03_17-00_20_02/wandb/run-20260317_002106-mappo_remedy_rush_multi_agent_2agents_s
+eed0_20260317_002106
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mappo_remedy_rush_multi_agent_2agents_seed0_20260317_002106
+wandb: ⭐️ View project at https://wandb.ai/sohamhan-usc/benchmarl-vizdoom
+wandb: 🚀 View run at https://wandb.ai/sohamhan-usc/benchmarl-vizdoom/runs/mappo_remedy_rush_multi
+_agent_2agents_seed0_20260317_002106
+  0%|                                                                        | 0/977 [00:00<?, ?it
+/s]/home/sohans/anaconda3/envs/vizdoom/lib/python3.11/site-packages/benchmarl/experiment/logger.py
+:125: UserWarning: No episode terminated this iteration and thus the episode rewards will be NaN,
+this is normal if your horizon is longer then one iteration. Learning is proceeding fine.The episo
+des will probably terminate in a future iteration.
+  warnings.warn(
+2026-03-17 00:21:15,391 [torchrl][INFO]    Initialized LazyTensorStorage with torch.Size([1024]) s
+hape [END]
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new file
+s.
+mean return = nan:   0%|                                          | 1/977 [01:09<18:53:48, 69.70s/
+mean return = 3.3125:   0%|                                        | 2/977 [01:18<9:13:37, 34.07s/
+mean return = nan:   0%|▏                                          | 3/977 [01:26<5:56:23, 21.95s/
+mean return = nan:   0%|▏                                          | 4/977 [01:33<4:23:42, 16.26s/
+mean return = nan:   1%|▏                                          | 5/977 [01:41<3:32:28, 13.12s/
+mean return = nan:   1%|▎                                          | 6/977 [01:48<3:01:33, 11.22s/
+mean return = nan:   1%|▎                                          | 7/977 [01:56<2:42:00, 10.02s/
+mean return = nan:   1%|▎                                          | 8/977 [02:04<2:29:05,  9.23s/
+mean return = 9.96875:   1%|▎                                      | 9/977 [02:14<2:34:26,  9.57s/
+mean return = nan:   1%|▍                                         | 10/977 [02:21<2:24:12,  8.95s/
+mean return = nan:   1%|▍                                         | 11/977 [02:29<2:17:09,  8.52s/
+mean return = nan:   1%|▌                                         | 12/977 [02:37<2:12:12,  8.22s/
+mean return = nan:   1%|▌                                         | 13/977 [02:44<2:08:44,  8.01s/
+mean return = nan:   1%|▌                                         | 14/977 [02:52<2:06:24,  7.88s/
+mean return = nan:   2%|▋                                         | 15/977 [02:59<2:04:41,  7.78s/
+mean return = nan:   2%|▋                                         | 16/977 [03:07<2:03:25,  7.71s/
+mean return = 23.058822631835938:   2%|▍                          | 17/977 [03:20<2:29:33,  9.35s/
+mean return = nan:   2%|▊                                         | 18/977 [03:35<2:55:51, 11.00s/
+mean return = nan:   2%|▊                                         | 19/977 [03:50<3:14:04, 12.15s/
+mean return = nan:   2%|▊                                         | 20/977 [04:04<3:26:45, 12.96s/
+mean return = 14.676470756530762:   2%|▌                          | 21/977 [04:24<3:58:43, 14.98s/
+mean return = nan:   2%|▉                                         | 22/977 [04:39<3:57:51, 14.94s/
+mean return = nan:   2%|▉                                         | 23/977 [04:54<3:57:09, 14.92s/
+mean return = nan:   2%|█                                         | 24/977 [05:09<3:56:34, 14.89s/
+mean return = 13.44444465637207:   3%|▋                           | 25/977 [06:33<9:25:59, 35.67s/
+mean return = 6.382352828979492:   3%|▋                           | 26/977 [06:44<7:26:43, 28.18s/
+mean return = nan:   3%|█▏                                        | 27/977 [06:51<5:48:13, 21.99s/
+mean return = nan:   3%|█▏                                        | 28/977 [06:59<4:39:14, 17.66s/
+mean return = nan:   3%|█▏                                        | 29/977 [07:06<3:50:59, 14.62s/
+mean return = nan:   3%|█▎                                        | 30/977 [07:14<3:17:19, 12.50s/
+mean return = nan:   3%|█▎                                        | 31/977 [07:21<2:53:41, 11.02s/
+mean return = nan:   3%|█▍                                        | 32/977 [07:29<2:37:07,  9.98s/
+mean return = 18.78125:   3%|█▏                                   | 33/977 [07:41<2:45:37, 10.53s/
+mean return = nan:   3%|█▍                                        | 34/977 [07:48<2:31:20,  9.63s/
+mean return = nan:   4%|█▌                                        | 35/977 [07:56<2:21:26,  9.01s/
+mean return = nan:   4%|█▌                                        | 36/977 [08:03<2:14:25,  8.57s/
+mean return = nan:   4%|█▌                                        | 37/977 [08:11<2:09:26,  8.26s/
+mean return = nan:   4%|█▋                                        | 38/977 [08:18<2:05:52,  8.04s/
+mean return = nan:   4%|█▋                                        | 39/977 [08:26<2:03:29,  7.90s/
+mean return = nan:   4%|█▋                                        | 40/977 [08:33<2:01:42,  7.79s/
+mean return = 17.28125:   4%|█▌                                   | 41/977 [08:46<2:25:29,  9.33s/
+mean return = nan:   4%|█▊                                        | 42/977 [08:54<2:17:02,  8.79s/
+mean return = nan:   4%|█▊                                        | 43/977 [09:01<2:11:05,  8.42s/
+mean return = nan:   5%|█▉                                        | 44/977 [09:09<2:06:50,  8.16s/
+mean return = nan:   5%|█▉                                        | 45/977 [09:17<2:03:49,  7.97s/
+mean return = nan:   5%|█▉                                        | 46/977 [09:24<2:01:41,  7.84s/
+mean return = nan:   5%|██                                        | 47/977 [09:32<2:00:16,  7.76s/
+mean return = 29.90625:   5%|█▊                                   | 48/977 [09:46<2:31:09,  9.76s/
+mean return = nan:   5%|██                                        | 49/977 [09:54<2:20:39,  9.09s/
+mean return = nan:   5%|██▏                                       | 50/977 [11:03<6:58:49, 27.11s/
+mean return = 13.8125:   5%|█▉                                    | 51/977 [11:12<5:35:08, 21.72s/
+mean return = nan:   5%|██▏                                       | 52/977 [11:19<4:29:16, 17.47s/
+mean return = nan:   5%|██▎                                       | 53/977 [11:27<3:43:07, 14.49s/
+mean return = nan:   6%|██▎                                       | 54/977 [11:35<3:10:48, 12.40s/
+mean return = nan:   6%|██▎                                       | 55/977 [11:42<2:48:17, 10.95s/
+mean return = nan:   6%|██▍                                       | 56/977 [11:50<2:32:27,  9.93s/
+mean return = nan:   6%|██▍                                       | 57/977 [11:57<2:21:15,  9.21s/
+mean return = 36.96875:   6%|██▏                                  | 58/977 [12:08<2:27:15,  9.61s/
+mean return = nan:   6%|██▌                                       | 59/977 [12:15<2:17:42,  9.00s/
+mean return = nan:   6%|██▌                                       | 60/977 [12:23<2:10:55,  8.57s/
+mean return = nan:   6%|██▌                                       | 61/977 [12:30<2:06:07,  8.26s/
+mean return = nan:   6%|██▋                                       | 62/977 [12:38<2:02:45,  8.05s/
+mean return = nan:   6%|██▋                                       | 63/977 [12:45<2:00:16,  7.90s/
+mean return = nan:   7%|██▊                                       | 64/977 [12:53<1:58:31,  7.79s/
+mean return = nan:   7%|██▊                                       | 65/977 [13:01<1:57:13,  7.71s/
+mean return = 39.375:   7%|██▋                                    | 66/977 [13:12<2:15:21,  8.91s/
+mean return = nan:   7%|██▉                                       | 67/977 [13:20<2:08:57,  8.50s/
+mean return = nan:   7%|██▉                                       | 68/977 [13:27<2:04:26,  8.21s/
+mean return = nan:   7%|██▉                                       | 69/977 [13:35<2:01:23,  8.02s/
+mean return = nan:   7%|███                                       | 70/977 [13:42<1:59:05,  7.88s/
+mean return = nan:   7%|███                                       | 71/977 [13:50<1:57:24,  7.78s/
+mean return = nan:   7%|███                                       | 72/977 [13:58<1:56:11,  7.70s/
+mean return = nan:   7%|███▏                                      | 73/977 [14:05<1:55:26,  7.66s/
+mean return = 29.34375:   8%|██▊                                  | 74/977 [14:18<2:20:35,  9.34s/
+mean return = nan:   8%|███▏                                      | 75/977 [15:27<6:49:19, 27.23s/
+mean return = 10.96875:   8%|██▉                                  | 76/977 [15:36<5:27:15, 21.79s/
+mean return = nan:   8%|███▎                                      | 77/977 [15:44<4:22:48, 17.52s/
+mean return = nan:   8%|███▎                                      | 78/977 [15:52<3:37:42, 14.53s/
+mean return = nan:   8%|███▍                                      | 79/977 [15:59<3:06:07, 12.44s/
+mean return = nan:   8%|███▍                                      | 80/977 [16:07<2:44:01, 10.97s/
+mean return = nan:   8%|███▍                                      | 81/977 [16:14<2:28:27,  9.94s/
+mean return = nan:   8%|███▌                                      | 82/977 [16:22<2:17:31,  9.22s/
+mean return = 40.46875:   8%|███▏                                 | 83/977 [16:32<2:22:53,  9.59s/
+mean return = nan:   9%|███▌                                      | 84/977 [16:40<2:13:33,  8.97s/
+mean return = nan:   9%|███▋                                      | 85/977 [16:47<2:07:00,  8.54s/
+mean return = nan:   9%|███▋                                      | 86/977 [16:55<2:02:30,  8.25s/
+mean return = nan:   9%|███▋                                      | 87/977 [17:02<1:59:15,  8.04s/
+mean return = nan:   9%|███▊                                      | 88/977 [17:10<1:56:53,  7.89s/
+mean return = nan:   9%|███▊                                      | 89/977 [17:17<1:55:11,  7.78s/
+mean return = nan:   9%|███▊                                      | 90/977 [17:25<1:54:00,  7.71s/
+mean return = 41.5625:   9%|███▌                                  | 91/977 [17:37<2:11:20,  8.89s/
+mean return = nan:   9%|███▉                                      | 92/977 [17:44<2:05:10,  8.49s/
+mean return = nan:  10%|███▉                                      | 93/977 [17:52<2:00:50,  8.20s/
+mean return = nan:  10%|████                                      | 94/977 [17:59<1:57:53,  8.01s/
+mean return = nan:  10%|████                                      | 95/977 [18:07<1:55:44,  7.87s/
+mean return = nan:  10%|████▏                                     | 96/977 [18:14<1:54:08,  7.77s/
+mean return = nan:  10%|████▏                                     | 97/977 [18:22<1:52:59,  7.70s/
+mean return = nan:  10%|████▏                                     | 98/977 [18:29<1:52:16,  7.66s/
+mean return = 36.46875:  10%|███▋                                 | 99/977 [18:41<2:10:17,  8.90s/
+mean return = nan:  10%|████▏                                    | 100/977 [19:51<6:36:09, 27.10s/
+mean return = 14.03125:  10%|███▋                                | 101/977 [20:00<5:16:51, 21.70s/
+mean return = nan:  10%|████▎                                    | 102/977 [20:07<4:14:33, 17.46s/
+mean return = nan:  11%|████▎                                    | 103/977 [20:15<3:30:55, 14.48s/
+mean return = nan:  11%|████▎                                    | 104/977 [20:23<3:00:26, 12.40s/
+mean return = nan:  11%|████▍                                    | 105/977 [20:30<2:39:01, 10.94s/
+mean return = nan:  11%|████▍                                    | 106/977 [20:38<2:24:01,  9.92s/
+mean return = nan:  11%|████▍                                    | 107/977 [20:45<2:13:31,  9.21s/
+mean return = 38.9375:  11%|████                                 | 108/977 [20:56<2:18:15,  9.55s/
+mean return = nan:  11%|████▌                                    | 109/977 [21:03<2:09:23,  8.94s/
+mean return = nan:  11%|████▌                                    | 110/977 [21:11<2:03:11,  8.53s/
+mean return = nan:  11%|████▋                                    | 111/977 [21:18<1:58:46,  8.23s/
+mean return = nan:  11%|████▋                                    | 112/977 [21:26<1:55:41,  8.03s/
+mean return = nan:  12%|████▋                                    | 113/977 [21:33<1:53:27,  7.88s/
+mean return = nan:  12%|████▊                                    | 114/977 [21:41<1:51:50,  7.78s/
+mean return = nan:  12%|████▊                                    | 115/977 [21:48<1:50:44,  7.71s/
+mean return = 43.65625:  12%|████▎                               | 116/977 [22:00<2:08:17,  8.94s/
+mean return = nan:  12%|████▉                                    | 117/977 [22:08<2:02:08,  8.52s/
+mean return = nan:  12%|████▉                                    | 118/977 [22:15<1:57:56,  8.24s/
+mean return = nan:  12%|████▉                                    | 119/977 [22:23<1:54:50,  8.03s/
+mean return = nan:  12%|█████                                    | 120/977 [22:30<1:52:35,  7.88s/
+mean return = nan:  12%|█████                                    | 121/977 [22:38<1:51:02,  7.78s/
+mean return = nan:  12%|█████                                    | 122/977 [22:45<1:49:52,  7.71s/
+mean return = nan:  13%|█████▏                                   | 123/977 [22:53<1:49:01,  7.66s/
+mean return = 43.59375:  13%|████▌                               | 124/977 [23:06<2:12:34,  9.33s/
+mean return = nan:  13%|█████▏                                   | 125/977 [24:15<6:26:05, 27.19s/
+mean return = 11.1875:  13%|████▊                                | 126/977 [24:24<5:08:40, 21.76s/
+mean return = nan:  13%|█████▎                                   | 127/977 [24:32<4:07:54, 17.50s/
+mean return = nan:  13%|█████▎                                   | 128/977 [24:39<3:25:19, 14.51s/
+mean return = nan:  13%|█████▍                                   | 129/977 [24:47<2:55:33, 12.42s/
+mean return = nan:  13%|█████▍                                   | 130/977 [24:54<2:34:41, 10.96s/
+mean return = nan:  13%|█████▍                                   | 131/977 [25:02<2:20:03,  9.93s/
+mean return = nan:  14%|█████▌                                   | 132/977 [25:09<2:09:49,  9.22s/
+mean return = 43.40625:  14%|████▉                               | 133/977 [25:20<2:14:20,  9.55s/
+mean return = nan:  14%|█████▌                                   | 134/977 [25:27<2:05:41,  8.95s/
+mean return = nan:  14%|█████▋                                   | 135/977 [25:35<1:59:40,  8.53s/
+mean return = nan:  14%|█████▋                                   | 136/977 [25:42<1:55:22,  8.23s/
+mean return = nan:  14%|█████▋                                   | 137/977 [25:50<1:52:20,  8.02s/
+mean return = nan:  14%|█████▊                                   | 138/977 [25:57<1:50:09,  7.88s/
+mean return = nan:  14%|█████▊                                   | 139/977 [26:05<1:48:35,  7.78s/
+mean return = nan:  14%|█████▉                                   | 140/977 [26:13<1:47:30,  7.71s/
+mean return = 36.264705657958984:  14%|███▊                      | 141/977 [26:26<2:09:46,  9.31s/
+mean return = nan:  15%|█████▉                                   | 142/977 [26:33<2:02:12,  8.78s/
+mean return = nan:  15%|██████                                   | 143/977 [26:41<1:56:55,  8.41s/
+mean return = nan:  15%|██████                                   | 144/977 [26:48<1:53:08,  8.15s/
+mean return = nan:  15%|██████                                   | 145/977 [26:56<1:50:31,  7.97s/
+mean return = nan:  15%|██████▏                                  | 146/977 [27:03<1:48:35,  7.84s/
+mean return = nan:  15%|██████▏                                  | 147/977 [27:11<1:47:11,  7.75s/
+mean return = nan:  15%|██████▏                                  | 148/977 [27:18<1:46:13,  7.69s/
+mean return = 48.125:  15%|█████▊                                | 149/977 [27:33<2:14:59,  9.78s/
+mean return = nan:  15%|██████▎                                  | 150/977 [28:42<6:19:53, 27.56s/
+mean return = 14.53125:  15%|█████▌                              | 151/977 [28:51<5:03:11, 22.02s/
+mean return = nan:  16%|██████▍                                  | 152/977 [28:59<4:03:07, 17.68s/
+mean return = nan:  16%|██████▍                                  | 153/977 [29:06<3:21:05, 14.64s/
+mean return = nan:  16%|██████▍                                  | 154/977 [29:14<2:51:37, 12.51s/
+mean return = nan:  16%|██████▌                                  | 155/977 [29:21<2:31:00, 11.02s/
+mean return = nan:  16%|██████▌                                  | 156/977 [29:29<2:16:32,  9.98s/
+mean return = nan:  16%|██████▌                                  | 157/977 [29:37<2:06:22,  9.25s/
+mean return = 45.5:  16%|██████▍                                 | 158/977 [29:47<2:11:08,  9.61s/
+mean return = nan:  16%|██████▋                                  | 159/977 [29:54<2:02:31,  8.99s/
+mean return = nan:  16%|██████▋                                  | 160/977 [30:02<1:56:26,  8.55s/
+mean return = nan:  16%|██████▊                                  | 161/977 [30:10<1:52:13,  8.25s/
+mean return = nan:  17%|██████▊                                  | 162/977 [30:17<1:49:10,  8.04s/
+mean return = nan:  17%|██████▊                                  | 163/977 [30:25<1:47:03,  7.89s/
+mean return = nan:  17%|██████▉                                  | 164/977 [30:32<1:45:29,  7.79s/
+mean return = nan:  17%|██████▉                                  | 165/977 [30:40<1:44:22,  7.71s/
+mean return = 43.09375:  17%|██████                              | 166/977 [30:52<2:00:41,  8.93s/
+mean return = nan:  17%|███████                                  | 167/977 [30:59<1:54:55,  8.51s/
+mean return = nan:  17%|███████                                  | 168/977 [31:07<1:50:52,  8.22s/
+mean return = nan:  17%|███████                                  | 169/977 [31:14<1:48:01,  8.02s/
+mean return = nan:  17%|███████▏                                 | 170/977 [31:22<1:45:56,  7.88s/
+mean return = nan:  18%|███████▏                                 | 171/977 [31:29<1:44:28,  7.78s/
+mean return = nan:  18%|███████▏                                 | 172/977 [31:37<1:43:23,  7.71s/
+mean return = nan:  18%|███████▎                                 | 173/977 [31:44<1:42:35,  7.66s/
+mean return = 47.21875:  18%|██████▍                             | 174/977 [31:58<2:04:54,  9.33s/
+mean return = nan:  18%|███████▎                                 | 175/977 [33:07<6:04:09, 27.24s/
+mean return = 15.0625:  18%|██████▋                              | 176/977 [33:16<4:51:06, 21.81s/
+mean return = nan:  18%|███████▍                                 | 177/977 [33:23<3:54:11, 17.56s/
+mean return = nan:  18%|███████▍                                 | 178/977 [33:31<3:13:51, 14.56s/
+mean return = nan:  18%|███████▌                                 | 179/977 [33:38<2:45:39, 12.46s/
+mean return = nan:  18%|███████▌                                 | 180/977 [33:46<2:25:51, 10.98s/
+mean return = nan:  19%|███████▌                                 | 181/977 [33:54<2:11:58,  9.95s/
+mean return = nan:  19%|███████▋                                 | 182/977 [34:01<2:02:16,  9.23s/
+mean return = 43.46875:  19%|██████▋                             | 183/977 [34:12<2:07:29,  9.63s/
+mean return = nan:  19%|███████▋                                 | 184/977 [34:19<1:59:01,  9.01s/
+mean return = nan:  19%|███████▊                                 | 185/977 [34:27<1:53:06,  8.57s/
+mean return = nan:  19%|███████▊                                 | 186/977 [34:34<1:48:54,  8.26s/
+mean return = nan:  19%|███████▊                                 | 187/977 [34:42<1:45:57,  8.05s/
+mean return = nan:  19%|███████▉                                 | 188/977 [34:49<1:43:49,  7.90s/
+mean return = nan:  19%|███████▉                                 | 189/977 [34:57<1:42:18,  7.79s/
+mean return = nan:  19%|███████▉                                 | 190/977 [35:04<1:41:12,  7.72s/
+mean return = 46.53125:  20%|███████                             | 191/977 [35:16<1:57:15,  8.95s/
+mean return = nan:  20%|████████                                 | 192/977 [35:24<1:51:33,  8.53s/
+mean return = nan:  20%|████████                                 | 193/977 [35:31<1:47:35,  8.23s/
+mean return = nan:  20%|████████▏                                | 194/977 [35:39<1:44:44,  8.03s/
+mean return = nan:  20%|████████▏                                | 195/977 [35:47<1:42:44,  7.88s/
+mean return = nan:  20%|████████▏                                | 196/977 [35:54<1:41:16,  7.78s/
+mean return = nan:  20%|████████▎                                | 197/977 [36:02<1:40:13,  7.71s/
+mean return = nan:  20%|████████▎                                | 198/977 [36:09<1:39:27,  7.66s/
+mean return = 43.53125:  20%|███████▎                            | 199/977 [36:22<2:00:38,  9.30s/
+mean return = nan:  20%|████████▍                                | 200/977 [37:32<5:54:53, 27.40s/
+mean return = 17.09375:  21%|███████▍                            | 201/977 [37:41<4:43:32, 21.92s/
+mean return = nan:  21%|████████▍                                | 202/977 [37:49<3:47:28, 17.61s/
+mean return = nan:  21%|████████▌                                | 203/977 [37:56<3:08:12, 14.59s/
+mean return = nan:  21%|████████▌                                | 204/977 [38:04<2:40:41, 12.47s/
+mean return = nan:  21%|████████▌                                | 205/977 [38:11<2:21:33, 11.00s/
+mean return = nan:  21%|████████▋                                | 206/977 [38:19<2:08:04,  9.97s/
+mean return = nan:  21%|████████▋                                | 207/977 [38:26<1:58:34,  9.24s/
+mean return = 47.8125:  21%|███████▉                             | 208/977 [38:37<2:03:17,  9.62s/
+mean return = nan:  21%|████████▊                                | 209/977 [38:44<1:55:14,  9.00s/
+mean return = nan:  21%|████████▊                                | 210/977 [38:52<1:49:30,  8.57s/
+mean return = nan:  22%|████████▊                                | 211/977 [38:59<1:45:26,  8.26s/
+mean return = nan:  22%|████████▉                                | 212/977 [39:07<1:42:32,  8.04s/
+mean return = nan:  22%|████████▉                                | 213/977 [39:15<1:40:35,  7.90s/
+mean return = nan:  22%|████████▉                                | 214/977 [39:22<1:39:07,  7.80s/
+mean return = nan:  22%|█████████                                | 215/977 [39:30<1:38:00,  7.72s/
+mean return = 44.8125:  22%|████████▏                            | 216/977 [39:41<1:53:06,  8.92s/
+mean return = nan:  22%|█████████                                | 217/977 [39:49<1:47:50,  8.51s/
+mean return = nan:  22%|█████████▏                               | 218/977 [39:57<1:44:03,  8.23s/
+mean return = nan:  22%|█████████▏                               | 219/977 [40:04<1:41:20,  8.02s/
+mean return = nan:  23%|█████████▏                               | 220/977 [40:12<1:39:28,  7.88s/
+mean return = nan:  23%|█████████▎                               | 221/977 [40:19<1:38:06,  7.79s/
+mean return = nan:  23%|█████████▎                               | 222/977 [40:27<1:37:02,  7.71s/
+mean return = nan:  23%|█████████▎                               | 223/977 [40:34<1:36:15,  7.66s/
+mean return = 45.0:  23%|█████████▏                              | 224/977 [40:46<1:51:48,  8.91s/
+mean return = nan:  23%|█████████▍                               | 225/977 [41:55<5:37:27, 26.92s/
+mean return = 13.90625:  23%|████████▎                           | 226/977 [42:04<4:30:03, 21.58s/
+mean return = nan:  23%|█████████▌                               | 227/977 [42:12<3:37:10, 17.37s/
+mean return = nan:  23%|█████████▌                               | 228/977 [42:19<3:00:05, 14.43s/
+mean return = nan:  23%|█████████▌                               | 229/977 [42:27<2:34:05, 12.36s/
+mean return = nan:  24%|█████████▋                               | 230/977 [42:34<2:15:52, 10.91s/
+mean return = nan:  24%|█████████▋                               | 231/977 [42:42<2:03:12,  9.91s/
+mean return = nan:  24%|█████████▋                               | 232/977 [42:49<1:54:15,  9.20s/
+mean return = 38.9375:  24%|████████▊                            | 233/977 [43:00<1:58:36,  9.57s/
+mean return = nan:  24%|█████████▊                               | 234/977 [43:07<1:50:58,  8.96s/
+mean return = nan:  24%|█████████▊                               | 235/977 [43:15<1:45:35,  8.54s/
+mean return = nan:  24%|█████████▉                               | 236/977 [43:23<1:41:47,  8.24s/
+mean return = nan:  24%|█████████▉                               | 237/977 [43:30<1:39:06,  8.04s/
+mean return = nan:  24%|█████████▉                               | 238/977 [43:38<1:37:37,  7.93s/
+mean return = nan:  24%|██████████                               | 239/977 [43:45<1:36:03,  7.81s/
+mean return = nan:  25%|██████████                               | 240/977 [43:53<1:35:02,  7.74s/
+mean return = 46.625:  25%|█████████▎                            | 241/977 [44:05<1:49:22,  8.92s/
+mean return = nan:  25%|██████████▏                              | 242/977 [44:12<1:44:10,  8.50s/
+mean return = nan:  25%|██████████▏                              | 243/977 [44:20<1:40:29,  8.22s/
+mean return = nan:  25%|██████████▏                              | 244/977 [44:27<1:38:00,  8.02s/
+mean return = nan:  25%|██████████▎                              | 245/977 [44:35<1:36:08,  7.88s/
+mean return = nan:  25%|██████████▎                              | 246/977 [44:42<1:34:46,  7.78s/
+mean return = nan:  25%|██████████▎                              | 247/977 [44:50<1:33:46,  7.71s/
+mean return = nan:  25%|██████████▍                              | 248/977 [44:57<1:33:07,  7.66s/
+mean return = 44.03125:  25%|█████████▏                          | 249/977 [45:11<1:53:22,  9.34s/
+mean return = nan:  26%|██████████▍                              | 250/977 [46:20<5:31:01, 27.32s/
+mean return = 15.71875:  26%|█████████▏                          | 251/977 [46:29<4:24:24, 21.85s/
+mean return = nan:  26%|██████████▌                              | 252/977 [46:37<3:32:15, 17.57s/
+mean return = nan:  26%|██████████▌                              | 253/977 [46:44<2:55:43, 14.56s/
+mean return = nan:  26%|██████████▋                              | 254/977 [46:52<2:30:05, 12.46s/
+mean return = nan:  26%|██████████▋                              | 255/977 [46:59<2:12:08, 10.98s/
+mean return = nan:  26%|██████████▋                              | 256/977 [47:07<1:59:33,  9.95s/
+mean return = nan:  26%|██████████▊                              | 257/977 [47:14<1:50:49,  9.23s/
+mean return = 40.34375:  26%|█████████▌                          | 258/977 [47:25<1:55:45,  9.66s/
+mean return = nan:  27%|██████████▊                              | 259/977 [47:33<1:47:59,  9.02s/
+mean return = nan:  27%|██████████▉                              | 260/977 [47:40<1:42:30,  8.58s/
+mean return = nan:  27%|██████████▉                              | 261/977 [47:48<1:38:39,  8.27s/
+mean return = nan:  27%|██████████▉                              | 262/977 [47:55<1:36:01,  8.06s/
+mean return = nan:  27%|███████████                              | 263/977 [48:03<1:34:05,  7.91s/
+mean return = nan:  27%|███████████                              | 264/977 [48:10<1:32:38,  7.80s/
+mean return = nan:  27%|███████████                              | 265/977 [48:18<1:31:35,  7.72s/
+mean return = 40.09375:  27%|█████████▊                          | 266/977 [48:29<1:45:22,  8.89s/
+mean return = nan:  27%|███████████▏                             | 267/977 [48:37<1:40:29,  8.49s/
+mean return = nan:  27%|███████████▏                             | 268/977 [48:45<1:37:00,  8.21s/
+mean return = nan:  28%|███████████▎                             | 269/977 [48:52<1:34:31,  8.01s/
+mean return = nan:  28%|███████████▎                             | 270/977 [49:00<1:32:43,  7.87s/
+mean return = nan:  28%|███████████▎                             | 271/977 [49:07<1:31:26,  7.77s/
+mean return = nan:  28%|███████████▍                             | 272/977 [49:15<1:30:36,  7.71s/
+mean return = nan:  28%|███████████▍                             | 273/977 [49:22<1:29:55,  7.66s/
+mean return = 51.09375:  28%|██████████                          | 274/977 [49:34<1:44:45,  8.94s/
+mean return = nan:  28%|███████████▌                             | 275/977 [50:43<5:15:47, 26.99s/
+mean return = 14.3125:  28%|██████████▍                          | 276/977 [50:52<4:12:38, 21.62s/
+mean return = nan:  28%|███████████▌                             | 277/977 [51:00<3:23:00, 17.40s/
+mean return = nan:  28%|███████████▋                             | 278/977 [51:08<2:48:19, 14.45s/
+mean return = nan:  29%|███████████▋                             | 279/977 [51:15<2:24:00, 12.38s/
+mean return = nan:  29%|███████████▊                             | 280/977 [51:23<2:06:56, 10.93s/
+mean return = nan:  29%|███████████▊                             | 281/977 [51:30<1:54:59,  9.91s/
+mean return = nan:  29%|███████████▊                             | 282/977 [51:38<1:46:41,  9.21s/
+mean return = 43.5625:  29%|██████████▋                          | 283/977 [51:48<1:50:38,  9.57s/
+mean return = nan:  29%|███████████▉                             | 284/977 [51:56<1:43:28,  8.96s/
+mean return = nan:  29%|███████████▉                             | 285/977 [52:03<1:38:24,  8.53s/
+mean return = nan:  29%|████████████                             | 286/977 [52:11<1:34:55,  8.24s/
+mean return = nan:  29%|████████████                             | 287/977 [52:18<1:32:24,  8.04s/
+mean return = nan:  29%|████████████                             | 288/977 [52:26<1:30:35,  7.89s/
+mean return = nan:  30%|████████████▏                            | 289/977 [52:33<1:29:15,  7.78s/
+mean return = nan:  30%|████████████▏                            | 290/977 [52:41<1:28:22,  7.72s/
+mean return = 45.78125:  30%|██████████▋                         | 291/977 [52:55<1:49:51,  9.61s/
+mean return = nan:  30%|████████████▎                            | 292/977 [53:10<2:07:37, 11.18s/
+mean return = nan:  30%|████████████▎                            | 293/977 [53:25<2:19:55, 12.27s/
+mean return = nan:  30%|████████████▎                            | 294/977 [53:40<2:28:38, 13.06s/
+mean return = 31.34375:  30%|██████████▊                         | 295/977 [53:57<2:42:32, 14.30s/
+mean return = nan:  30%|████████████▍                            | 296/977 [54:04<2:19:17, 12.27s/
+mean return = nan:  30%|████████████▍                            | 297/977 [54:12<2:03:00, 10.85s/
+mean return = nan:  31%|████████████▌                            | 298/977 [54:19<1:51:41,  9.87s/
+mean return = nan:  31%|████████████▌                            | 299/977 [54:27<1:43:40,  9.17s/
+mean return = nan:  31%|████████████▌                            | 300/977 [55:37<5:08:05, 27.30s/
+mean return = 39.0:  31%|████████████▎                           | 301/977 [55:46<4:06:04, 21.84s/
+mean return = nan:  31%|████████████▋                            | 302/977 [55:53<3:17:31, 17.56s/
+mean return = nan:  31%|████████████▋                            | 303/977 [56:01<2:43:31, 14.56s/
+mean return = nan:  31%|████████████▊                            | 304/977 [56:08<2:19:40, 12.45s/
+mean return = nan:  31%|████████████▊                            | 305/977 [56:16<2:02:57, 10.98s/
+mean return = nan:  31%|████████████▊                            | 306/977 [56:23<1:51:19,  9.96s/
+mean return = nan:  31%|████████████▉                            | 307/977 [56:31<1:43:05,  9.23s/
+mean return = 45.0625:  32%|███████████▋                         | 308/977 [56:41<1:46:35,  9.56s/
+mean return = nan:  32%|████████████▉                            | 309/977 [56:49<1:39:45,  8.96s/
+mean return = nan:  32%|█████████████                            | 310/977 [56:56<1:34:54,  8.54s/
+mean return = nan:  32%|█████████████                            | 311/977 [57:04<1:31:27,  8.24s/
+mean return = nan:  32%|█████████████                            | 312/977 [57:11<1:28:59,  8.03s/
+mean return = nan:  32%|█████████████▏                           | 313/977 [57:19<1:27:20,  7.89s/
+mean return = nan:  32%|█████████████▏                           | 314/977 [57:27<1:26:04,  7.79s/
+mean return = nan:  32%|█████████████▏                           | 315/977 [57:34<1:25:06,  7.71s/
+mean return = 40.0:  32%|████████████▉                           | 316/977 [57:46<1:39:02,  8.99s/
+mean return = nan:  32%|█████████████▎                           | 317/977 [57:54<1:34:11,  8.56s/
+mean return = nan:  33%|█████████████▎                           | 318/977 [58:01<1:30:43,  8.26s/
+mean return = nan:  33%|█████████████▍                           | 319/977 [58:09<1:28:12,  8.04s/
+mean return = nan:  33%|█████████████▍                           | 320/977 [58:16<1:26:25,  7.89s/
+mean return = nan:  33%|█████████████▍                           | 321/977 [58:24<1:25:13,  7.80s/
+mean return = nan:  33%|█████████████▌                           | 322/977 [58:31<1:24:19,  7.72s/
+mean return = nan:  33%|█████████████▌                           | 323/977 [58:39<1:23:34,  7.67s/
+mean return = 45.5:  33%|█████████████▎                          | 324/977 [58:52<1:41:37,  9.34s/
+mean return = nan:  33%|████████████▉                          | 325/977 [1:00:01<4:56:35, 27.29s/
+mean return = 21.5625:  33%|███████████▋                       | 326/977 [1:00:11<3:56:57, 21.84s/
+mean return = nan:  33%|█████████████                          | 327/977 [1:00:18<3:10:07, 17.55s/
+mean return = nan:  34%|█████████████                          | 328/977 [1:00:26<2:37:21, 14.55s/
+mean return = nan:  34%|█████████████▏                         | 329/977 [1:00:33<2:14:30, 12.46s/
+mean return = nan:  34%|█████████████▏                         | 330/977 [1:00:41<1:58:27, 10.98s/
+mean return = nan:  34%|█████████████▏                         | 331/977 [1:00:48<1:47:07,  9.95s/
+mean return = nan:  34%|█████████████▎                         | 332/977 [1:00:56<1:39:11,  9.23s/
+mean return = 43.375:  34%|████████████▎                       | 333/977 [1:01:06<1:43:29,  9.64s/
+mean return = nan:  34%|█████████████▎                         | 334/977 [1:01:14<1:36:35,  9.01s/
+mean return = nan:  34%|█████████████▎                         | 335/977 [1:01:22<1:31:42,  8.57s/
+mean return = nan:  34%|█████████████▍                         | 336/977 [1:01:29<1:28:20,  8.27s/
+mean return = nan:  34%|█████████████▍                         | 337/977 [1:01:37<1:25:54,  8.05s/
+mean return = nan:  35%|█████████████▍                         | 338/977 [1:01:44<1:24:08,  7.90s/
+mean return = nan:  35%|█████████████▌                         | 339/977 [1:01:52<1:22:51,  7.79s/
+mean return = nan:  35%|█████████████▌                         | 340/977 [1:01:59<1:22:01,  7.73s/
+mean return = 38.4375:  35%|████████████▏                      | 341/977 [1:02:11<1:35:42,  9.03s/
+mean return = nan:  35%|█████████████▋                         | 342/977 [1:02:19<1:30:50,  8.58s/
+mean return = nan:  35%|█████████████▋                         | 343/977 [1:02:26<1:27:23,  8.27s/
+mean return = nan:  35%|█████████████▋                         | 344/977 [1:02:34<1:25:02,  8.06s/
+mean return = nan:  35%|█████████████▊                         | 345/977 [1:02:42<1:23:18,  7.91s/
+mean return = nan:  35%|█████████████▊                         | 346/977 [1:02:49<1:22:01,  7.80s/
+mean return = nan:  36%|█████████████▊                         | 347/977 [1:02:57<1:21:04,  7.72s/
+mean return = nan:  36%|█████████████▉                         | 348/977 [1:03:04<1:20:28,  7.68s/
+mean return = 38.6875:  36%|████████████▌                      | 349/977 [1:03:23<1:54:15, 10.92s/
+mean return = nan:  36%|█████████████▉                         | 350/977 [1:04:39<5:19:54, 30.61s/
+mean return = 19.21875:  36%|████████████▏                     | 351/977 [1:04:48<4:12:01, 24.16s/
+mean return = nan:  36%|██████████████                         | 352/977 [1:04:56<3:19:41, 19.17s/
+mean return = nan:  36%|██████████████                         | 353/977 [1:05:03<2:43:10, 15.69s/
+mean return = nan:  36%|██████████████▏                        | 354/977 [1:05:11<2:17:33, 13.25s/
+mean return = nan:  36%|██████████████▏                        | 355/977 [1:05:19<1:59:35, 11.54s/
+mean return = nan:  36%|██████████████▏                        | 356/977 [1:05:26<1:46:58, 10.34s/
+mean return = nan:  37%|██████████████▎                        | 357/977 [1:05:34<1:38:13,  9.51s/
+mean return = 50.0625:  37%|████████████▊                      | 358/977 [1:05:44<1:41:17,  9.82s/
+mean return = nan:  37%|██████████████▎                        | 359/977 [1:05:59<1:56:39, 11.33s/
+mean return = nan:  37%|██████████████▎                        | 360/977 [1:06:14<2:07:15, 12.38s/
+mean return = nan:  37%|██████████████▍                        | 361/977 [1:06:29<2:14:41, 13.12s/
+mean return = 24.78125:  37%|████████████▌                     | 362/977 [1:06:48<2:34:00, 15.03s/
+mean return = nan:  37%|██████████████▍                        | 363/977 [1:06:56<2:10:47, 12.78s/
+mean return = nan:  37%|██████████████▌                        | 364/977 [1:07:03<1:54:33, 11.21s/
+mean return = nan:  37%|██████████████▌                        | 365/977 [1:07:11<1:43:08, 10.11s/
+mean return = nan:  37%|██████████████▌                        | 366/977 [1:07:18<1:35:06,  9.34s/
+mean return = nan:  38%|██████████████▋                        | 367/977 [1:07:26<1:29:34,  8.81s/
+mean return = nan:  38%|██████████████▋                        | 368/977 [1:07:33<1:25:34,  8.43s/
+mean return = nan:  38%|██████████████▋                        | 369/977 [1:07:41<1:22:44,  8.17s/
+mean return = 50.625:  38%|█████████████▋                      | 370/977 [1:07:54<1:38:13,  9.71s/
+mean return = nan:  38%|██████████████▊                        | 371/977 [1:08:02<1:31:33,  9.07s/
+mean return = nan:  38%|██████████████▊                        | 372/977 [1:08:09<1:26:50,  8.61s/
+mean return = nan:  38%|██████████████▉                        | 373/977 [1:08:17<1:23:26,  8.29s/
+mean return = nan:  38%|██████████████▉                        | 374/977 [1:08:25<1:21:03,  8.06s/
+mean return = nan:  38%|██████████████▉                        | 375/977 [1:09:33<4:24:00, 26.31s/
+mean return = 39.96875:  38%|█████████████                     | 376/977 [1:09:43<3:31:52, 21.15s/
+mean return = nan:  39%|███████████████                        | 377/977 [1:09:50<2:50:40, 17.07s/
+mean return = nan:  39%|███████████████                        | 378/977 [1:09:58<2:21:51, 14.21s/
+mean return = nan:  39%|███████████████▏                       | 379/977 [1:10:05<2:01:40, 12.21s/
+mean return = nan:  39%|███████████████▏                       | 380/977 [1:10:13<1:47:36, 10.81s/
+mean return = nan:  39%|███████████████▏                       | 381/977 [1:10:20<1:37:40,  9.83s/
+mean return = nan:  39%|███████████████▏                       | 382/977 [1:10:28<1:30:41,  9.15s/
+mean return = 45.03125:  39%|█████████████▎                    | 383/977 [1:10:38<1:34:23,  9.53s/
+mean return = nan:  39%|███████████████▎                       | 384/977 [1:10:46<1:28:19,  8.94s/
+mean return = nan:  39%|███████████████▎                       | 385/977 [1:10:53<1:24:02,  8.52s/
+mean return = nan:  40%|███████████████▍                       | 386/977 [1:11:01<1:21:05,  8.23s/
+mean return = nan:  40%|███████████████▍                       | 387/977 [1:11:08<1:18:54,  8.02s/
+mean return = nan:  40%|███████████████▍                       | 388/977 [1:11:16<1:17:20,  7.88s/
+mean return = nan:  40%|███████████████▌                       | 389/977 [1:11:24<1:16:17,  7.78s/
+mean return = nan:  40%|███████████████▌                       | 390/977 [1:11:31<1:15:26,  7.71s/
+mean return = 45.21875:  40%|█████████████▌                    | 391/977 [1:11:43<1:26:37,  8.87s/
+mean return = nan:  40%|███████████████▋                       | 392/977 [1:11:50<1:22:40,  8.48s/
+mean return = nan:  40%|███████████████▋                       | 393/977 [1:11:58<1:19:48,  8.20s/
+mean return = nan:  40%|███████████████▋                       | 394/977 [1:12:05<1:17:48,  8.01s/
+mean return = nan:  40%|███████████████▊                       | 395/977 [1:12:13<1:16:19,  7.87s/
+mean return = nan:  41%|███████████████▊                       | 396/977 [1:12:20<1:15:14,  7.77s/
+mean return = nan:  41%|███████████████▊                       | 397/977 [1:12:28<1:14:31,  7.71s/
+mean return = nan:  41%|███████████████▉                       | 398/977 [1:12:36<1:13:55,  7.66s/
+mean return = 46.4375:  41%|██████████████▎                    | 399/977 [1:12:53<1:42:53, 10.68s/
+mean return = nan:  41%|███████████████▉                       | 400/977 [1:14:10<4:54:15, 30.60s/
+mean return = 20.34375:  41%|█████████████▉                    | 401/977 [1:14:19<3:51:53, 24.16s/
+mean return = nan:  41%|████████████████                       | 402/977 [1:14:27<3:03:43, 19.17s/
+mean return = nan:  41%|████████████████                       | 403/977 [1:14:35<2:30:00, 15.68s/
+mean return = nan:  41%|████████████████▏                      | 404/977 [1:14:42<2:06:29, 13.25s/
+mean return = nan:  41%|████████████████▏                      | 405/977 [1:14:50<1:50:00, 11.54s/
+mean return = nan:  42%|████████████████▏                      | 406/977 [1:14:57<1:38:44, 10.38s/
+mean return = nan:  42%|████████████████▏                      | 407/977 [1:15:05<1:30:28,  9.52s/
+mean return = 53.0:  42%|███████████████▊                      | 408/977 [1:15:16<1:33:45,  9.89s/
+mean return = nan:  42%|████████████████▎                      | 409/977 [1:15:30<1:47:41, 11.38s/
+mean return = nan:  42%|████████████████▎                      | 410/977 [1:15:45<1:57:22, 12.42s/
+mean return = nan:  42%|████████████████▍                      | 411/977 [1:16:00<2:04:04, 13.15s/
+mean return = 29.0625:  42%|██████████████▊                    | 412/977 [1:16:18<2:17:55, 14.65s/
+mean return = nan:  42%|████████████████▍                      | 413/977 [1:16:26<1:57:40, 12.52s/
+mean return = nan:  42%|████████████████▌                      | 414/977 [1:16:33<1:43:29, 11.03s/
+mean return = nan:  42%|████████████████▌                      | 415/977 [1:16:41<1:33:31,  9.98s/
+mean return = nan:  43%|████████████████▌                      | 416/977 [1:16:48<1:26:32,  9.25s/
+mean return = nan:  43%|████████████████▋                      | 417/977 [1:16:56<1:21:36,  8.74s/
+mean return = nan:  43%|████████████████▋                      | 418/977 [1:17:04<1:18:08,  8.39s/
+mean return = nan:  43%|████████████████▋                      | 419/977 [1:17:11<1:15:39,  8.14s/
+mean return = 43.09375:  43%|██████████████▌                   | 420/977 [1:17:24<1:29:39,  9.66s/
+mean return = nan:  43%|████████████████▊                      | 421/977 [1:17:32<1:23:36,  9.02s/
+mean return = nan:  43%|████████████████▊                      | 422/977 [1:17:39<1:19:20,  8.58s/
+mean return = nan:  43%|████████████████▉                      | 423/977 [1:17:47<1:16:24,  8.27s/
+mean return = nan:  43%|████████████████▉                      | 424/977 [1:17:55<1:14:16,  8.06s/
+mean return = nan:  44%|████████████████▉                      | 425/977 [1:19:04<4:02:10, 26.32s/
+mean return = 42.59375:  44%|██████████████▊                   | 426/977 [1:19:13<3:14:15, 21.15s/
+mean return = nan:  44%|█████████████████                      | 427/977 [1:19:20<2:36:32, 17.08s/
+mean return = nan:  44%|█████████████████                      | 428/977 [1:19:28<2:10:06, 14.22s/
+mean return = nan:  44%|█████████████████                      | 429/977 [1:19:35<1:51:34, 12.22s/
+mean return = nan:  44%|█████████████████▏                     | 430/977 [1:19:43<1:38:34, 10.81s/
+mean return = nan:  44%|█████████████████▏                     | 431/977 [1:19:50<1:29:31,  9.84s/
+mean return = nan:  44%|█████████████████▏                     | 432/977 [1:19:58<1:23:06,  9.15s/
+mean return = 45.21875:  44%|███████████████                   | 433/977 [1:20:08<1:25:51,  9.47s/
+mean return = nan:  44%|█████████████████▎                     | 434/977 [1:20:16<1:20:27,  8.89s/
+mean return = nan:  45%|█████████████████▎                     | 435/977 [1:20:23<1:16:38,  8.48s/
+mean return = nan:  45%|█████████████████▍                     | 436/977 [1:20:31<1:14:00,  8.21s/
+mean return = nan:  45%|█████████████████▍                     | 437/977 [1:20:38<1:12:05,  8.01s/
+mean return = nan:  45%|█████████████████▍                     | 438/977 [1:20:46<1:10:41,  7.87s/
+mean return = nan:  45%|█████████████████▌                     | 439/977 [1:20:53<1:09:40,  7.77s/
+mean return = nan:  45%|█████████████████▌                     | 440/977 [1:21:01<1:08:59,  7.71s/
+mean return = 44.40625:  45%|███████████████▎                  | 441/977 [1:21:15<1:25:10,  9.53s/
+mean return = nan:  45%|█████████████████▋                     | 442/977 [1:21:30<1:39:13, 11.13s/
+mean return = nan:  45%|█████████████████▋                     | 443/977 [1:21:44<1:48:59, 12.25s/
+mean return = nan:  45%|█████████████████▋                     | 444/977 [1:21:59<1:55:44, 13.03s/
+mean return = 30.9375:  46%|███████████████▉                   | 445/977 [1:22:16<2:06:06, 14.22s/
+mean return = nan:  46%|█████████████████▊                     | 446/977 [1:22:24<1:48:07, 12.22s/
+mean return = nan:  46%|█████████████████▊                     | 447/977 [1:22:31<1:35:31, 10.81s/
+mean return = nan:  46%|█████████████████▉                     | 448/977 [1:22:39<1:26:45,  9.84s/
+mean return = nan:  46%|█████████████████▉                     | 449/977 [1:22:46<1:20:32,  9.15s/
+mean return = nan:  46%|█████████████████▉                     | 450/977 [1:23:55<3:57:57, 27.09s/
+mean return = 39.84375:  46%|███████████████▋                  | 451/977 [1:24:05<3:10:10, 21.69s/
+mean return = nan:  46%|██████████████████                     | 452/977 [1:24:12<2:32:42, 17.45s/
+mean return = nan:  46%|██████████████████                     | 453/977 [1:24:20<2:06:28, 14.48s/
+mean return = nan:  46%|██████████████████                     | 454/977 [1:24:27<1:48:05, 12.40s/
+mean return = nan:  47%|██████████████████▏                    | 455/977 [1:24:35<1:35:11, 10.94s/
+mean return = nan:  47%|██████████████████▏                    | 456/977 [1:24:42<1:26:13,  9.93s/
+mean return = nan:  47%|██████████████████▏                    | 457/977 [1:24:50<1:19:52,  9.22s/
+mean return = 49.117645263671875:  47%|███████████▎            | 458/977 [1:25:01<1:23:40,  9.67s/
+mean return = nan:  47%|██████████████████▎                    | 459/977 [1:25:15<1:36:52, 11.22s/
+mean return = nan:  47%|██████████████████▎                    | 460/977 [1:25:30<1:46:04, 12.31s/
+mean return = nan:  47%|██████████████████▍                    | 461/977 [1:25:45<1:52:24, 13.07s/
+mean return = 31.382352828979492:  47%|███████████▎            | 462/977 [1:26:03<2:05:44, 14.65s/
+mean return = nan:  47%|██████████████████▍                    | 463/977 [1:26:18<2:06:01, 14.71s/
+mean return = nan:  47%|██████████████████▌                    | 464/977 [1:26:33<2:06:08, 14.75s/
+mean return = nan:  48%|██████████████████▌                    | 465/977 [1:26:48<2:06:25, 14.82s/
+mean return = 30.02941131591797:  48%|███████████▉             | 466/977 [1:27:06<2:15:10, 15.87s/
+mean return = nan:  48%|██████████████████▋                    | 467/977 [1:27:21<2:12:17, 15.56s/
+mean return = nan:  48%|██████████████████▋                    | 468/977 [1:27:36<2:10:14, 15.35s/
+mean return = nan:  48%|██████████████████▋                    | 469/977 [1:27:51<2:08:40, 15.20s/
+mean return = 32.47058868408203:  48%|████████████             | 470/977 [1:28:09<2:16:28, 16.15s/
+mean return = nan:  48%|██████████████████▊                    | 471/977 [1:28:24<2:12:56, 15.76s/
+mean return = nan:  48%|██████████████████▊                    | 472/977 [1:28:39<2:10:23, 15.49s/
+mean return = nan:  48%|██████████████████▉                    | 473/977 [1:28:54<2:08:30, 15.30s/
+mean return = 30.852941513061523:  49%|███████████▋            | 474/977 [1:29:13<2:18:03, 16.47s/
+mean return = nan:  49%|██████████████████▉                    | 475/977 [1:30:30<4:48:14, 34.45s/
+mean return = 14.117647171020508:  49%|███████████▋            | 476/977 [1:30:40<3:46:46, 27.16s/
+mean return = nan:  49%|███████████████████                    | 477/977 [1:30:47<2:57:18, 21.28s/
+mean return = nan:  49%|███████████████████                    | 478/977 [1:30:55<2:22:42, 17.16s/
+mean return = nan:  49%|███████████████████                    | 479/977 [1:31:02<1:58:28, 14.27s/
+mean return = nan:  49%|███████████████████▏                   | 480/977 [1:31:10<1:41:29, 12.25s/
+mean return = nan:  49%|███████████████████▏                   | 481/977 [1:31:17<1:29:39, 10.85s/
+mean return = nan:  49%|███████████████████▏                   | 482/977 [1:31:25<1:21:19,  9.86s/
+mean return = 54.84375:  49%|████████████████▊                 | 483/977 [1:31:37<1:25:43, 10.41s/
+mean return = nan:  50%|███████████████████▎                   | 484/977 [1:31:44<1:18:30,  9.56s/
+mean return = nan:  50%|███████████████████▎                   | 485/977 [1:31:52<1:13:24,  8.95s/
+mean return = nan:  50%|███████████████████▍                   | 486/977 [1:31:59<1:09:48,  8.53s/
+mean return = nan:  50%|███████████████████▍                   | 487/977 [1:32:07<1:07:14,  8.23s/
+mean return = nan:  50%|███████████████████▍                   | 488/977 [1:32:14<1:05:27,  8.03s/
+mean return = nan:  50%|███████████████████▌                   | 489/977 [1:32:22<1:04:10,  7.89s/
+mean return = nan:  50%|███████████████████▌                   | 490/977 [1:32:30<1:03:10,  7.78s/
+mean return = 55.6875:  50%|█████████████████▌                 | 491/977 [1:32:42<1:15:02,  9.26s/
+mean return = nan:  50%|███████████████████▋                   | 492/977 [1:32:50<1:10:45,  8.75s/
+mean return = nan:  50%|███████████████████▋                   | 493/977 [1:32:57<1:07:42,  8.39s/
+mean return = nan:  51%|███████████████████▋                   | 494/977 [1:33:05<1:05:30,  8.14s/
+mean return = nan:  51%|███████████████████▊                   | 495/977 [1:33:12<1:03:55,  7.96s/
+mean return = nan:  51%|███████████████████▊                   | 496/977 [1:33:20<1:02:51,  7.84s/
+mean return = nan:  51%|███████████████████▊                   | 497/977 [1:33:28<1:02:02,  7.76s/
+mean return = 51.875:  51%|██████████████████▎                 | 498/977 [1:33:41<1:14:57,  9.39s/
+mean return = nan:  51%|███████████████████▉                   | 499/977 [1:33:48<1:10:25,  8.84s/
+mean return = nan:  51%|███████████████████▉                   | 500/977 [1:34:58<3:35:50, 27.15s/
+mean return = 20.53125:  51%|█████████████████▍                | 501/977 [1:35:07<2:52:25, 21.73s/
+mean return = nan:  51%|████████████████████                   | 502/977 [1:35:15<2:18:22, 17.48s/
+mean return = nan:  51%|████████████████████                   | 503/977 [1:35:22<1:54:33, 14.50s/
+mean return = nan:  52%|████████████████████                   | 504/977 [1:35:30<1:37:51, 12.41s/
+mean return = nan:  52%|████████████████████▏                  | 505/977 [1:35:37<1:26:07, 10.95s/
+mean return = nan:  52%|████████████████████▏                  | 506/977 [1:35:45<1:17:58,  9.93s/
+mean return = nan:  52%|████████████████████▏                  | 507/977 [1:35:53<1:12:12,  9.22s/
+mean return = 49.875:  52%|██████████████████▋                 | 508/977 [1:36:03<1:14:59,  9.59s/
+mean return = nan:  52%|████████████████████▎                  | 509/977 [1:36:11<1:10:04,  8.98s/
+mean return = nan:  52%|████████████████████▎                  | 510/977 [1:36:18<1:06:34,  8.55s/
+mean return = nan:  52%|████████████████████▍                  | 511/977 [1:36:26<1:04:04,  8.25s/
+mean return = nan:  52%|████████████████████▍                  | 512/977 [1:36:33<1:02:17,  8.04s/
+mean return = nan:  53%|████████████████████▍                  | 513/977 [1:36:41<1:01:02,  7.89s/
+mean return = nan:  53%|████████████████████▌                  | 514/977 [1:36:48<1:00:07,  7.79s/
+mean return = nan:  53%|█████████████████████▌                   | 515/977 [1:36:56<59:24,  7.72s/
+mean return = 53.8125:  53%|██████████████████▍                | 516/977 [1:37:07<1:08:07,  8.87s/
+mean return = nan:  53%|████████████████████▋                  | 517/977 [1:37:15<1:04:58,  8.47s/
+mean return = nan:  53%|████████████████████▋                  | 518/977 [1:37:23<1:02:42,  8.20s/
+mean return = nan:  53%|████████████████████▋                  | 519/977 [1:37:30<1:01:05,  8.00s/
+mean return = nan:  53%|█████████████████████▊                   | 520/977 [1:37:38<59:56,  7.87s/
+mean return = nan:  53%|█████████████████████▊                   | 521/977 [1:37:45<59:04,  7.77s/
+mean return = nan:  53%|█████████████████████▉                   | 522/977 [1:37:53<58:26,  7.71s/
+mean return = nan:  54%|█████████████████████▉                   | 523/977 [1:38:00<57:58,  7.66s/
+mean return = 45.90625:  54%|██████████████████▏               | 524/977 [1:38:12<1:06:52,  8.86s/
+mean return = nan:  54%|████████████████████▉                  | 525/977 [1:39:21<3:23:08, 26.97s/
+mean return = 14.90625:  54%|██████████████████▎               | 526/977 [1:39:30<2:42:23, 21.60s/
+mean return = nan:  54%|█████████████████████                  | 527/977 [1:39:38<2:10:24, 17.39s/
+mean return = nan:  54%|█████████████████████                  | 528/977 [1:39:45<1:47:59, 14.43s/
+mean return = nan:  54%|█████████████████████                  | 529/977 [1:39:53<1:32:20, 12.37s/
+mean return = nan:  54%|█████████████████████▏                 | 530/977 [1:40:00<1:21:20, 10.92s/
+mean return = nan:  54%|█████████████████████▏                 | 531/977 [1:40:08<1:13:37,  9.90s/
+mean return = nan:  54%|█████████████████████▏                 | 532/977 [1:40:16<1:08:12,  9.20s/
+mean return = 48.65625:  55%|██████████████████▌               | 533/977 [1:40:26<1:10:56,  9.59s/
+mean return = nan:  55%|█████████████████████▎                 | 534/977 [1:40:34<1:06:14,  8.97s/
+mean return = nan:  55%|█████████████████████▎                 | 535/977 [1:40:41<1:02:57,  8.55s/
+mean return = nan:  55%|█████████████████████▍                 | 536/977 [1:40:49<1:00:35,  8.24s/
+mean return = nan:  55%|██████████████████████▌                  | 537/977 [1:40:56<58:55,  8.03s/
+mean return = nan:  55%|██████████████████████▌                  | 538/977 [1:41:04<57:42,  7.89s/
+mean return = nan:  55%|██████████████████████▌                  | 539/977 [1:41:11<56:48,  7.78s/
+mean return = nan:  55%|██████████████████████▋                  | 540/977 [1:41:19<56:10,  7.71s/
+mean return = 55.46875:  55%|██████████████████▊               | 541/977 [1:41:31<1:04:45,  8.91s/
+mean return = nan:  55%|█████████████████████▋                 | 542/977 [1:41:38<1:01:37,  8.50s/
+mean return = nan:  56%|██████████████████████▊                  | 543/977 [1:41:46<59:25,  8.22s/
+mean return = nan:  56%|██████████████████████▊                  | 544/977 [1:41:53<57:49,  8.01s/
+mean return = nan:  56%|██████████████████████▊                  | 545/977 [1:42:01<56:40,  7.87s/
+mean return = nan:  56%|██████████████████████▉                  | 546/977 [1:42:08<55:49,  7.77s/
+mean return = nan:  56%|██████████████████████▉                  | 547/977 [1:42:16<55:11,  7.70s/
+mean return = nan:  56%|██████████████████████▉                  | 548/977 [1:42:23<54:43,  7.65s/
+mean return = 49.4375:  56%|███████████████████▋               | 549/977 [1:42:36<1:05:44,  9.22s/
+mean return = nan:  56%|█████████████████████▉                 | 550/977 [1:43:45<3:12:53, 27.10s/
+mean return = 17.625:  56%|████████████████████▎               | 551/977 [1:43:54<2:34:08, 21.71s/
+mean return = nan:  56%|██████████████████████                 | 552/977 [1:44:02<2:03:41, 17.46s/
+mean return = nan:  57%|██████████████████████                 | 553/977 [1:44:09<1:42:21, 14.48s/
+mean return = nan:  57%|██████████████████████                 | 554/977 [1:44:17<1:27:26, 12.40s/
+mean return = nan:  57%|██████████████████████▏                | 555/977 [1:44:24<1:16:58, 10.95s/
+mean return = nan:  57%|██████████████████████▏                | 556/977 [1:44:32<1:09:38,  9.92s/
+mean return = nan:  57%|██████████████████████▏                | 557/977 [1:44:39<1:04:29,  9.21s/
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+mean return = 49.6875:  57%|███████████████████▉               | 558/977 [1:44:50<1:06:54,  9.58s/
+mean return = nan:  57%|██████████████████████▎                | 559/977 [1:44:57<1:02:28,  8.97s/
+mean return = nan:  57%|███████████████████████▌                 | 560/977 [1:45:05<59:21,  8.54s/
+mean return = nan:  57%|███████████████████████▌                 | 561/977 [1:45:13<57:08,  8.24s/
+mean return = nan:  58%|███████████████████████▌                 | 562/977 [1:45:20<55:32,  8.03s/
+mean return = nan:  58%|███████████████████████▋                 | 563/977 [1:45:28<54:24,  7.88s/
+mean return = nan:  58%|███████████████████████▋                 | 564/977 [1:45:35<53:34,  7.78s/
+mean return = nan:  58%|███████████████████████▋                 | 565/977 [1:45:43<52:56,  7.71s/
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+mean return = 43.9375:  58%|████████████████████▎              | 566/977 [1:45:56<1:04:36,  9.43s/
+mean return = nan:  58%|██████████████████████▋                | 567/977 [1:46:11<1:15:34, 11.06s/
+mean return = nan:  58%|██████████████████████▋                | 568/977 [1:46:26<1:23:08, 12.20s/
+mean return = nan:  58%|██████████████████████▋                | 569/977 [1:46:41<1:28:19, 12.99s/
+mean return = 38.75:  58%|█████████████████████▌               | 570/977 [1:46:58<1:36:48, 14.27s/
+mean return = nan:  58%|██████████████████████▊                | 571/977 [1:47:05<1:22:55, 12.25s/
+mean return = nan:  59%|██████████████████████▊                | 572/977 [1:47:13<1:13:10, 10.84s/
+mean return = nan:  59%|██████████████████████▊                | 573/977 [1:47:21<1:06:20,  9.85s/
+mean return = nan:  59%|██████████████████████▉                | 574/977 [1:47:28<1:01:31,  9.16s/
+mean return = nan:  59%|██████████████████████▉                | 575/977 [1:48:37<3:01:28, 27.09s/
+mean return = 39.03125:  59%|████████████████████              | 576/977 [1:48:46<2:24:58, 21.69s/
+mean return = nan:  59%|███████████████████████                | 577/977 [1:48:54<1:56:18, 17.45s/
+mean return = nan:  59%|███████████████████████                | 578/977 [1:49:01<1:36:16, 14.48s/
+mean return = nan:  59%|███████████████████████                | 579/977 [1:49:09<1:22:13, 12.40s/
+mean return = nan:  59%|███████████████████████▏               | 580/977 [1:49:16<1:12:23, 10.94s/
+mean return = nan:  59%|███████████████████████▏               | 581/977 [1:49:24<1:05:28,  9.92s/
+mean return = nan:  60%|███████████████████████▏               | 582/977 [1:49:31<1:00:37,  9.21s/
+mean return = 47.5625:  60%|████████████████████▉              | 583/977 [1:49:42<1:02:29,  9.52s/
+mean return = nan:  60%|████████████████████████▌                | 584/977 [1:49:49<58:25,  8.92s/
+mean return = nan:  60%|████████████████████████▌                | 585/977 [1:49:57<55:35,  8.51s/
+mean return = nan:  60%|████████████████████████▌                | 586/977 [1:50:04<53:34,  8.22s/
+mean return = nan:  60%|████████████████████████▋                | 587/977 [1:50:12<52:06,  8.02s/
+mean return = nan:  60%|████████████████████████▋                | 588/977 [1:50:19<51:04,  7.88s/
+mean return = nan:  60%|████████████████████████▋                | 589/977 [1:50:27<50:18,  7.78s/
+mean return = nan:  60%|████████████████████████▊                | 590/977 [1:50:34<49:43,  7.71s/
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+mean return = 52.46875:  60%|█████████████████████▊              | 591/977 [1:50:46<57:43,  8.97s/
+mean return = nan:  61%|████████████████████████▊                | 592/977 [1:50:54<54:48,  8.54s/
+mean return = nan:  61%|████████████████████████▉                | 593/977 [1:51:01<52:45,  8.24s/
+mean return = nan:  61%|████████████████████████▉                | 594/977 [1:51:09<51:15,  8.03s/
+mean return = nan:  61%|████████████████████████▉                | 595/977 [1:51:17<50:11,  7.88s/
+mean return = nan:  61%|█████████████████████████                | 596/977 [1:51:24<49:23,  7.78s/
+mean return = nan:  61%|█████████████████████████                | 597/977 [1:51:32<48:49,  7.71s/
+mean return = nan:  61%|█████████████████████████                | 598/977 [1:51:39<48:21,  7.66s/
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+[VideoLogger] wandb log failed: wandb.Video requires moviepy when passing raw data. Install with "
+pip install wandb[media]"
+mean return = 46.15625:  61%|██████████████████████              | 599/977 [1:51:51<56:49,  9.02s/
+mean return = nan:  61%|███████████████████████▉               | 600/977 [1:53:01<2:50:31, 27.14s/
+mean return = 13.1875:  62%|█████████████████████▌             | 601/977 [1:53:10<2:16:09, 21.73s/
+mean return = nan:  62%|████████████████████████               | 602/977 [1:53:17<1:49:10, 17.47s/
+mean return = nan:  62%|████████████████████████               | 603/977 [1:53:25<1:30:19, 14.49s/
+mean return = nan:  62%|████████████████████████               | 604/977 [1:53:32<1:17:06, 12.40s/
+mean return = nan:  62%|████████████████████████▏              | 605/977 [1:53:40<1:07:51, 10.95s/
+mean return = nan:  62%|████████████████████████▏              | 606/977 [1:53:48<1:01:24,  9.93s/
+mean return = nan:  62%|█████████████████████████▍               | 607/977 [1:53:55<56:50,  9.22s/
+mean return = 48.15625:  62%|██████████████████████▍             | 608/977 [1:54:06<59:08,  9.62s/
+mean return = nan:  62%|█████████████████████████▌               | 609/977 [1:54:13<55:10,  9.00s/
+mean return = nan:  62%|█████████████████████████▌               | 610/977 [1:54:21<52:21,  8.56s/
+mean return = nan:  63%|█████████████████████████▋               | 611/977 [1:54:28<50:21,  8.26s/
+mean return = nan:  63%|█████████████████████████▋               | 612/977 [1:54:36<48:54,  8.04s/
+mean return = nan:  63%|█████████████████████████▋               | 613/977 [1:54:43<47:52,  7.89s/
+mean return = nan:  63%|█████████████████████████▊               | 614/977 [1:54:51<47:06,  7.79s/
+mean return = nan:  63%|█████████████████████████▊               | 615/977 [1:54:58<46:32,  7.71s/
+mean return = 52.65625:  63%|██████████████████████▋             | 616/977 [1:55:10<54:01,  8.98s/
+mean return = nan:  63%|█████████████████████████▉               | 617/977 [1:55:18<51:17,  8.55s/
+mean return = nan:  63%|█████████████████████████▉               | 618/977 [1:55:26<49:20,  8.25s/
+mean return = nan:  63%|█████████████████████████▉               | 619/977 [1:55:33<47:57,  8.04s/
+mean return = nan:  63%|██████████████████████████               | 620/977 [1:55:41<46:55,  7.89s/
+mean return = nan:  64%|██████████████████████████               | 621/977 [1:55:48<46:11,  7.78s/
+mean return = nan:  64%|██████████████████████████               | 622/977 [1:55:56<45:37,  7.71s/
+mean return = nan:  64%|██████████████████████████▏              | 623/977 [1:56:03<45:12,  7.66s/
+mean return = 51.375:  64%|████████████████████████▎             | 624/977 [1:56:16<54:43,  9.30s/
+mean return = nan:  64%|████████████████████████▉              | 625/977 [1:57:26<2:39:54, 27.26s/
+mean return = 16.6875:  64%|██████████████████████▍            | 626/977 [1:57:35<2:07:35, 21.81s/
+mean return = nan:  64%|█████████████████████████              | 627/977 [1:57:42<1:42:15, 17.53s/
+mean return = nan:  64%|█████████████████████████              | 628/977 [1:57:50<1:24:32, 14.53s/
+mean return = nan:  64%|█████████████████████████              | 629/977 [1:57:57<1:12:07, 12.44s/
+mean return = nan:  64%|█████████████████████████▏             | 630/977 [1:58:05<1:03:26, 10.97s/
+mean return = nan:  65%|██████████████████████████▍              | 631/977 [1:58:12<57:19,  9.94s/
+mean return = nan:  65%|██████████████████████████▌              | 632/977 [1:58:20<53:01,  9.22s/
+mean return = 42.53125:  65%|███████████████████████▎            | 633/977 [1:58:30<55:03,  9.60s/
+mean return = nan:  65%|██████████████████████████▌              | 634/977 [1:58:38<51:23,  8.99s/
+mean return = nan:  65%|██████████████████████████▋              | 635/977 [1:58:45<48:45,  8.55s/
+mean return = nan:  65%|██████████████████████████▋              | 636/977 [1:58:53<46:54,  8.25s/
+mean return = nan:  65%|██████████████████████████▋              | 637/977 [1:59:01<45:33,  8.04s/
+mean return = nan:  65%|██████████████████████████▊              | 638/977 [1:59:08<44:35,  7.89s/
+mean return = nan:  65%|██████████████████████████▊              | 639/977 [1:59:16<43:52,  7.79s/
+mean return = nan:  66%|██████████████████████████▊              | 640/977 [1:59:23<43:20,  7.72s/
+mean return = 49.125:  66%|████████████████████████▉             | 641/977 [1:59:35<49:50,  8.90s/
+mean return = nan:  66%|██████████████████████████▉              | 642/977 [1:59:42<47:25,  8.50s/
+mean return = nan:  66%|██████████████████████████▉              | 643/977 [1:59:50<45:41,  8.21s/
+mean return = nan:  66%|███████████████████████████              | 644/977 [1:59:57<44:27,  8.01s/
+mean return = nan:  66%|███████████████████████████              | 645/977 [2:00:05<43:32,  7.87s/
+mean return = nan:  66%|███████████████████████████              | 646/977 [2:00:13<42:52,  7.77s/
+mean return = nan:  66%|███████████████████████████▏             | 647/977 [2:00:20<42:22,  7.70s/
+mean return = nan:  66%|███████████████████████████▏             | 648/977 [2:00:28<41:58,  7.66s/
+mean return = 42.40625:  66%|███████████████████████▉            | 649/977 [2:00:41<50:51,  9.30s/
+mean return = nan:  67%|█████████████████████████▉             | 650/977 [2:01:50<2:28:29, 27.25s/
+mean return = 20.90625:  67%|██████████████████████▋           | 651/977 [2:01:59<1:58:26, 21.80s/
+mean return = nan:  67%|██████████████████████████             | 652/977 [2:02:07<1:34:55, 17.52s/
+mean return = nan:  67%|██████████████████████████             | 653/977 [2:02:14<1:18:27, 14.53s/
+mean return = nan:  67%|██████████████████████████             | 654/977 [2:02:22<1:06:56, 12.43s/
+mean return = nan:  67%|███████████████████████████▍             | 655/977 [2:02:29<58:50, 10.96s/
+mean return = nan:  67%|███████████████████████████▌             | 656/977 [2:02:37<53:09,  9.94s/
+mean return = nan:  67%|███████████████████████████▌             | 657/977 [2:02:44<49:09,  9.22s/
+mean return = 45.375:  67%|█████████████████████████▌            | 658/977 [2:02:55<50:51,  9.57s/
+mean return = nan:  67%|███████████████████████████▋             | 659/977 [2:03:02<47:28,  8.96s/
+mean return = nan:  68%|███████████████████████████▋             | 660/977 [2:03:10<45:04,  8.53s/
+mean return = nan:  68%|███████████████████████████▋             | 661/977 [2:03:17<43:22,  8.24s/
+mean return = nan:  68%|███████████████████████████▊             | 662/977 [2:03:25<42:08,  8.03s/
+mean return = nan:  68%|███████████████████████████▊             | 663/977 [2:03:32<41:15,  7.88s/
+mean return = nan:  68%|███████████████████████████▊             | 664/977 [2:03:40<40:34,  7.78s/
+mean return = nan:  68%|███████████████████████████▉             | 665/977 [2:03:47<40:05,  7.71s/
+mean return = 41.235294342041016:  68%|█████████████████▋        | 666/977 [2:04:01<49:26,  9.54s/
+mean return = nan:  68%|███████████████████████████▉             | 667/977 [2:04:16<57:29, 11.13s/
+mean return = nan:  68%|██████████████████████████▋            | 668/977 [2:04:31<1:03:03, 12.24s/
+mean return = nan:  68%|██████████████████████████▋            | 669/977 [2:04:46<1:06:50, 13.02s/
+mean return = 26.91176414489746:  69%|█████████████████▏       | 670/977 [2:05:04<1:14:18, 14.52s/
+mean return = nan:  69%|██████████████████████████▊            | 671/977 [2:05:11<1:03:23, 12.43s/
+mean return = nan:  69%|████████████████████████████▏            | 672/977 [2:05:19<55:43, 10.96s/
+mean return = nan:  69%|████████████████████████████▏            | 673/977 [2:05:26<50:21,  9.94s/
+mean return = nan:  69%|████████████████████████████▎            | 674/977 [2:05:34<46:33,  9.22s/
+mean return = nan:  69%|██████████████████████████▉            | 675/977 [2:06:43<2:16:45, 27.17s/
+mean return = 45.34375:  69%|███████████████████████▌          | 676/977 [2:06:52<1:49:06, 21.75s/
+mean return = nan:  69%|███████████████████████████            | 677/977 [2:07:00<1:27:26, 17.49s/
+mean return = nan:  69%|███████████████████████████            | 678/977 [2:07:07<1:12:16, 14.50s/
+mean return = nan:  69%|███████████████████████████            | 679/977 [2:07:15<1:01:40, 12.42s/
+mean return = nan:  70%|████████████████████████████▌            | 680/977 [2:07:22<54:13, 10.95s/
+mean return = nan:  70%|████████████████████████████▌            | 681/977 [2:07:30<48:59,  9.93s/
+mean return = nan:  70%|████████████████████████████▌            | 682/977 [2:07:38<45:28,  9.25s/
+mean return = 53.59375:  70%|█████████████████████████▏          | 683/977 [2:07:48<47:16,  9.65s/
+mean return = nan:  70%|████████████████████████████▋            | 684/977 [2:07:56<44:01,  9.02s/
+mean return = nan:  70%|████████████████████████████▋            | 685/977 [2:08:03<41:43,  8.57s/
+mean return = nan:  70%|████████████████████████████▊            | 686/977 [2:08:11<40:05,  8.27s/
+mean return = nan:  70%|████████████████████████████▊            | 687/977 [2:08:18<38:54,  8.05s/
+mean return = nan:  70%|████████████████████████████▊            | 688/977 [2:08:26<38:02,  7.90s/
+mean return = nan:  71%|████████████████████████████▉            | 689/977 [2:08:33<37:23,  7.79s/
+mean return = nan:  71%|████████████████████████████▉            | 690/977 [2:08:41<36:55,  7.72s/
+mean return = 50.40625:  71%|█████████████████████████▍          | 691/977 [2:08:55<45:34,  9.56s/
+mean return = nan:  71%|█████████████████████████████            | 692/977 [2:09:10<52:56, 11.15s/
+mean return = nan:  71%|█████████████████████████████            | 693/977 [2:09:24<58:00, 12.26s/
+mean return = nan:  71%|███████████████████████████▋           | 694/977 [2:09:39<1:01:28, 13.03s/
+mean return = 34.09375:  71%|████████████████████████▏         | 695/977 [2:09:56<1:06:51, 14.23s/
+mean return = nan:  71%|█████████████████████████████▏           | 696/977 [2:10:04<57:14, 12.22s/
+mean return = nan:  71%|█████████████████████████████▏           | 697/977 [2:10:11<50:28, 10.82s/
+mean return = nan:  71%|█████████████████████████████▎           | 698/977 [2:10:19<45:44,  9.84s/
+mean return = nan:  72%|█████████████████████████████▎           | 699/977 [2:10:26<42:23,  9.15s/
+mean return = nan:  72%|███████████████████████████▉           | 700/977 [2:11:36<2:06:16, 27.35s/
+mean return = 42.0:  72%|███████████████████████████▎          | 701/977 [2:11:45<1:40:38, 21.88s/
+mean return = nan:  72%|████████████████████████████           | 702/977 [2:11:53<1:20:34, 17.58s/
+mean return = nan:  72%|████████████████████████████           | 703/977 [2:12:01<1:06:31, 14.57s/
+mean return = nan:  72%|█████████████████████████████▌           | 704/977 [2:12:08<56:42, 12.46s/
+mean return = nan:  72%|█████████████████████████████▌           | 705/977 [2:12:16<49:47, 10.98s/
+mean return = nan:  72%|█████████████████████████████▋           | 706/977 [2:12:23<44:57,  9.95s/
+mean return = nan:  72%|█████████████████████████████▋           | 707/977 [2:12:31<41:31,  9.23s/
+mean return = 47.0:  72%|████████████████████████████▉           | 708/977 [2:12:41<43:03,  9.60s/
+mean return = nan:  73%|█████████████████████████████▊           | 709/977 [2:12:49<40:08,  8.99s/
+mean return = nan:  73%|█████████████████████████████▊           | 710/977 [2:12:56<38:02,  8.55s/
+mean return = nan:  73%|█████████████████████████████▊           | 711/977 [2:13:04<36:34,  8.25s/
+mean return = nan:  73%|█████████████████████████████▉           | 712/977 [2:13:11<35:29,  8.03s/
+mean return = nan:  73%|█████████████████████████████▉           | 713/977 [2:13:19<34:42,  7.89s/
+mean return = nan:  73%|█████████████████████████████▉           | 714/977 [2:13:26<34:07,  7.78s/
+mean return = nan:  73%|██████████████████████████████           | 715/977 [2:13:34<33:41,  7.71s/
+mean return = 48.28125:  73%|██████████████████████████▍         | 716/977 [2:13:46<38:46,  8.91s/
+mean return = nan:  73%|██████████████████████████████           | 717/977 [2:13:53<36:50,  8.50s/
+mean return = nan:  73%|██████████████████████████████▏          | 718/977 [2:14:01<35:27,  8.21s/
+mean return = nan:  74%|██████████████████████████████▏          | 719/977 [2:14:08<34:27,  8.01s/
+mean return = nan:  74%|██████████████████████████████▏          | 720/977 [2:14:16<33:42,  7.87s/
+mean return = nan:  74%|██████████████████████████████▎          | 721/977 [2:14:23<33:09,  7.77s/
+mean return = nan:  74%|██████████████████████████████▎          | 722/977 [2:14:31<32:44,  7.70s/
+mean return = nan:  74%|██████████████████████████████▎          | 723/977 [2:14:38<32:24,  7.66s/
+mean return = 53.78125:  74%|██████████████████████████▋         | 724/977 [2:14:51<39:00,  9.25s/
+mean return = nan:  74%|████████████████████████████▉          | 725/977 [2:16:00<1:54:05, 27.17s/
+mean return = 18.625:  74%|██████████████████████████▊         | 726/977 [2:16:10<1:30:59, 21.75s/
+mean return = nan:  74%|█████████████████████████████          | 727/977 [2:16:17<1:12:52, 17.49s/
+mean return = nan:  75%|█████████████████████████████          | 728/977 [2:16:25<1:00:14, 14.51s/
+mean return = nan:  75%|██████████████████████████████▌          | 729/977 [2:16:32<51:21, 12.42s/
+mean return = nan:  75%|██████████████████████████████▋          | 730/977 [2:16:40<45:06, 10.96s/
+mean return = nan:  75%|██████████████████████████████▋          | 731/977 [2:16:47<40:44,  9.94s/
+mean return = nan:  75%|██████████████████████████████▋          | 732/977 [2:16:55<37:38,  9.22s/
+mean return = 55.3125:  75%|███████████████████████████▊         | 733/977 [2:17:05<39:09,  9.63s/
+mean return = nan:  75%|██████████████████████████████▊          | 734/977 [2:17:13<36:28,  9.01s/
+mean return = nan:  75%|██████████████████████████████▊          | 735/977 [2:17:20<34:32,  8.57s/
+mean return = nan:  75%|██████████████████████████████▉          | 736/977 [2:17:28<33:10,  8.26s/
+mean return = nan:  75%|██████████████████████████████▉          | 737/977 [2:17:36<32:10,  8.04s/
+mean return = nan:  76%|██████████████████████████████▉          | 738/977 [2:17:43<31:26,  7.89s/
+mean return = nan:  76%|███████████████████████████████          | 739/977 [2:17:51<30:53,  7.79s/
+mean return = nan:  76%|███████████████████████████████          | 740/977 [2:17:58<30:28,  7.72s/
+mean return = 51.1875:  76%|████████████████████████████         | 741/977 [2:18:10<34:55,  8.88s/
+mean return = nan:  76%|███████████████████████████████▏         | 742/977 [2:18:17<33:12,  8.48s/
+mean return = nan:  76%|███████████████████████████████▏         | 743/977 [2:18:25<31:57,  8.20s/
+mean return = nan:  76%|███████████████████████████████▏         | 744/977 [2:18:32<31:04,  8.00s/
+mean return = nan:  76%|███████████████████████████████▎         | 745/977 [2:18:40<30:24,  7.86s/
+mean return = nan:  76%|███████████████████████████████▎         | 746/977 [2:18:48<29:54,  7.77s/
+mean return = nan:  76%|███████████████████████████████▎         | 747/977 [2:18:55<29:31,  7.70s/
+mean return = nan:  77%|███████████████████████████████▍         | 748/977 [2:19:03<29:13,  7.66s/
+mean return = 46.66666793823242:  77%|████████████████████▋      | 749/977 [2:19:20<40:39, 10.70s/
+mean return = nan:  77%|█████████████████████████████▉         | 750/977 [2:20:37<1:55:16, 30.47s/
+mean return = 18.61111068725586:  77%|███████████████████▏     | 751/977 [2:20:49<1:33:31, 24.83s/
+mean return = nan:  77%|██████████████████████████████         | 752/977 [2:20:56<1:13:40, 19.64s/
+mean return = nan:  77%|███████████████████████████████▌         | 753/977 [2:21:04<59:46, 16.01s/
+mean return = nan:  77%|███████████████████████████████▋         | 754/977 [2:21:11<50:04, 13.47s/
+mean return = nan:  77%|███████████████████████████████▋         | 755/977 [2:21:19<43:15, 11.69s/
+mean return = nan:  77%|███████████████████████████████▋         | 756/977 [2:21:26<38:29, 10.45s/
+mean return = nan:  77%|███████████████████████████████▊         | 757/977 [2:21:34<35:06,  9.58s/
+mean return = 51.5:  78%|███████████████████████████████         | 758/977 [2:21:47<39:03, 10.70s/
+mean return = nan:  78%|███████████████████████████████▊         | 759/977 [2:21:55<35:25,  9.75s/
+mean return = nan:  78%|███████████████████████████████▉         | 760/977 [2:22:02<32:52,  9.09s/
+mean return = nan:  78%|███████████████████████████████▉         | 761/977 [2:22:10<31:03,  8.63s/
+mean return = nan:  78%|███████████████████████████████▉         | 762/977 [2:22:17<29:44,  8.30s/
+mean return = nan:  78%|████████████████████████████████         | 763/977 [2:22:25<28:47,  8.07s/
+mean return = nan:  78%|████████████████████████████████         | 764/977 [2:22:33<28:05,  7.92s/
+mean return = 54.35714340209961:  78%|█████████████████████▏     | 765/977 [2:22:44<31:24,  8.89s/
+mean return = 51.75:  78%|██████████████████████████████▌        | 766/977 [2:22:55<33:20,  9.48s/
+mean return = nan:  79%|████████████████████████████████▏        | 767/977 [2:23:02<31:08,  8.90s/
+mean return = nan:  79%|████████████████████████████████▏        | 768/977 [2:23:10<29:34,  8.49s/
+mean return = nan:  79%|████████████████████████████████▎        | 769/977 [2:23:17<28:26,  8.21s/
+mean return = nan:  79%|████████████████████████████████▎        | 770/977 [2:23:25<27:37,  8.01s/
+mean return = nan:  79%|████████████████████████████████▎        | 771/977 [2:23:32<27:00,  7.87s/
+mean return = nan:  79%|████████████████████████████████▍        | 772/977 [2:23:40<26:33,  7.77s/
+mean return = 51.9375:  79%|█████████████████████████████▎       | 773/977 [2:23:55<33:43,  9.92s/
+mean return = nan:  79%|████████████████████████████████▍        | 774/977 [2:24:02<31:09,  9.21s/
+mean return = nan:  79%|██████████████████████████████▉        | 775/977 [2:25:11<1:31:17, 27.11s/
+mean return = 30.90625:  79%|███████████████████████████       | 776/977 [2:25:20<1:12:44, 21.71s/
+mean return = nan:  80%|████████████████████████████████▌        | 777/977 [2:25:28<58:12, 17.46s/
+mean return = nan:  80%|████████████████████████████████▋        | 778/977 [2:25:35<48:02, 14.49s/
+mean return = nan:  80%|████████████████████████████████▋        | 779/977 [2:25:43<40:55, 12.40s/
+mean return = nan:  80%|████████████████████████████████▋        | 780/977 [2:25:50<35:56, 10.94s/
+mean return = nan:  80%|████████████████████████████████▊        | 781/977 [2:25:58<32:24,  9.92s/
+mean return = nan:  80%|████████████████████████████████▊        | 782/977 [2:26:06<29:55,  9.21s/
+mean return = 50.90625:  80%|████████████████████████████▊       | 783/977 [2:26:16<31:05,  9.62s/
+mean return = nan:  80%|████████████████████████████████▉        | 784/977 [2:26:24<28:56,  9.00s/
+mean return = nan:  80%|████████████████████████████████▉        | 785/977 [2:26:31<27:23,  8.56s/
+mean return = nan:  80%|████████████████████████████████▉        | 786/977 [2:26:39<26:16,  8.26s/
+mean return = nan:  81%|█████████████████████████████████        | 787/977 [2:26:46<25:27,  8.04s/
+mean return = nan:  81%|█████████████████████████████████        | 788/977 [2:26:54<24:51,  7.89s/
+mean return = nan:  81%|█████████████████████████████████        | 789/977 [2:27:01<24:23,  7.79s/
+mean return = nan:  81%|█████████████████████████████████▏       | 790/977 [2:27:09<24:02,  7.71s/
+mean return = 52.34375:  81%|█████████████████████████████▏      | 791/977 [2:27:21<27:52,  8.99s/
+mean return = nan:  81%|█████████████████████████████████▏       | 792/977 [2:27:28<26:23,  8.56s/
+mean return = nan:  81%|█████████████████████████████████▎       | 793/977 [2:27:36<25:18,  8.25s/
+mean return = nan:  81%|█████████████████████████████████▎       | 794/977 [2:27:44<24:31,  8.04s/
+mean return = nan:  81%|█████████████████████████████████▎       | 795/977 [2:27:51<23:55,  7.89s/
+mean return = nan:  81%|█████████████████████████████████▍       | 796/977 [2:27:59<23:29,  7.79s/
+mean return = nan:  82%|█████████████████████████████████▍       | 797/977 [2:28:06<23:08,  7.71s/
+mean return = nan:  82%|█████████████████████████████████▍       | 798/977 [2:28:14<22:51,  7.66s/
+mean return = 54.9375:  82%|██████████████████████████████▎      | 799/977 [2:28:27<27:31,  9.28s/
+mean return = nan:  82%|███████████████████████████████▉       | 800/977 [2:29:36<1:20:39, 27.34s/
+mean return = 24.53125:  82%|███████████████████████████▉      | 801/977 [2:29:45<1:04:08, 21.87s/
+mean return = nan:  82%|█████████████████████████████████▋       | 802/977 [2:29:53<51:15, 17.57s/
+mean return = nan:  82%|█████████████████████████████████▋       | 803/977 [2:30:00<42:14, 14.56s/
+mean return = nan:  82%|█████████████████████████████████▋       | 804/977 [2:30:08<35:55, 12.46s/
+mean return = nan:  82%|█████████████████████████████████▊       | 805/977 [2:30:15<31:28, 10.98s/
+mean return = nan:  82%|█████████████████████████████████▊       | 806/977 [2:30:23<28:21,  9.95s/
+mean return = nan:  83%|█████████████████████████████████▊       | 807/977 [2:30:31<26:08,  9.23s/
+mean return = 52.9375:  83%|██████████████████████████████▌      | 808/977 [2:30:41<27:06,  9.63s/
+mean return = nan:  83%|█████████████████████████████████▉       | 809/977 [2:30:49<25:12,  9.00s/
+mean return = nan:  83%|█████████████████████████████████▉       | 810/977 [2:30:56<23:49,  8.56s/
+mean return = nan:  83%|██████████████████████████████████       | 811/977 [2:31:04<22:50,  8.26s/
+mean return = nan:  83%|██████████████████████████████████       | 812/977 [2:31:11<22:06,  8.04s/
+mean return = nan:  83%|██████████████████████████████████       | 813/977 [2:31:19<21:34,  7.89s/
+mean return = nan:  83%|██████████████████████████████████▏      | 814/977 [2:31:26<21:09,  7.79s/
+mean return = nan:  83%|██████████████████████████████████▏      | 815/977 [2:31:34<20:49,  7.72s/
+mean return = 42.55882263183594:  84%|██████████████████████▌    | 816/977 [2:31:47<24:55,  9.29s/
+mean return = nan:  84%|██████████████████████████████████▎      | 817/977 [2:31:54<23:23,  8.77s/
+mean return = nan:  84%|██████████████████████████████████▎      | 818/977 [2:32:02<22:15,  8.40s/
+mean return = nan:  84%|██████████████████████████████████▎      | 819/977 [2:32:10<21:26,  8.14s/
+mean return = nan:  84%|██████████████████████████████████▍      | 820/977 [2:32:17<20:49,  7.96s/
+mean return = nan:  84%|██████████████████████████████████▍      | 821/977 [2:32:25<20:22,  7.84s/
+mean return = nan:  84%|██████████████████████████████████▍      | 822/977 [2:32:32<20:00,  7.74s/
+mean return = nan:  84%|██████████████████████████████████▌      | 823/977 [2:32:40<19:43,  7.68s/
+mean return = 52.6875:  84%|███████████████████████████████▏     | 824/977 [2:32:53<23:57,  9.40s/
+mean return = nan:  84%|████████████████████████████████▉      | 825/977 [2:34:02<1:09:14, 27.34s/
+mean return = 21.1875:  85%|███████████████████████████████▎     | 826/977 [2:34:11<55:01, 21.86s/
+mean return = nan:  85%|██████████████████████████████████▋      | 827/977 [2:34:19<43:55, 17.57s/
+mean return = nan:  85%|██████████████████████████████████▋      | 828/977 [2:34:26<36:09, 14.56s/
+mean return = nan:  85%|██████████████████████████████████▊      | 829/977 [2:34:34<30:43, 12.46s/
+mean return = nan:  85%|██████████████████████████████████▊      | 830/977 [2:34:42<26:54, 10.98s/
+mean return = nan:  85%|██████████████████████████████████▊      | 831/977 [2:34:49<24:12,  9.95s/
+mean return = nan:  85%|██████████████████████████████████▉      | 832/977 [2:34:57<22:17,  9.23s/
+mean return = 46.4375:  85%|███████████████████████████████▌     | 833/977 [2:35:07<22:55,  9.55s/
+mean return = nan:  85%|██████████████████████████████████▉      | 834/977 [2:35:14<21:19,  8.95s/
+mean return = nan:  85%|███████████████████████████████████      | 835/977 [2:35:22<20:10,  8.53s/
+mean return = nan:  86%|███████████████████████████████████      | 836/977 [2:35:30<19:21,  8.24s/
+mean return = nan:  86%|███████████████████████████████████      | 837/977 [2:35:37<18:43,  8.03s/
+mean return = nan:  86%|███████████████████████████████████▏     | 838/977 [2:35:45<18:15,  7.88s/
+mean return = nan:  86%|███████████████████████████████████▏     | 839/977 [2:35:52<17:53,  7.78s/
+mean return = nan:  86%|███████████████████████████████████▎     | 840/977 [2:36:00<17:36,  7.71s/
+mean return = 53.75:  86%|█████████████████████████████████▌     | 841/977 [2:36:12<20:16,  8.95s/
+mean return = nan:  86%|███████████████████████████████████▎     | 842/977 [2:36:19<19:11,  8.53s/
+mean return = nan:  86%|███████████████████████████████████▍     | 843/977 [2:36:27<18:23,  8.23s/
+mean return = nan:  86%|███████████████████████████████████▍     | 844/977 [2:36:34<17:47,  8.03s/
+mean return = nan:  86%|███████████████████████████████████▍     | 845/977 [2:36:42<17:20,  7.88s/
+mean return = nan:  87%|███████████████████████████████████▌     | 846/977 [2:36:49<16:59,  7.78s/
+mean return = nan:  87%|███████████████████████████████████▌     | 847/977 [2:36:57<16:42,  7.71s/
+mean return = nan:  87%|███████████████████████████████████▌     | 848/977 [2:37:04<16:28,  7.66s/
+mean return = 48.78125:  87%|███████████████████████████████▎    | 849/977 [2:37:18<20:01,  9.38s/
+mean return = nan:  87%|███████████████████████████████████▋     | 850/977 [2:38:27<57:48, 27.31s/
+mean return = 20.0:  87%|██████████████████████████████████▊     | 851/977 [2:38:36<45:54, 21.86s/
+mean return = nan:  87%|███████████████████████████████████▊     | 852/977 [2:38:44<36:36, 17.57s/
+mean return = nan:  87%|███████████████████████████████████▊     | 853/977 [2:38:51<30:05, 14.56s/
+mean return = nan:  87%|███████████████████████████████████▊     | 854/977 [2:38:59<25:32, 12.46s/
+mean return = nan:  88%|███████████████████████████████████▉     | 855/977 [2:39:06<22:19, 10.98s/
+mean return = nan:  88%|███████████████████████████████████▉     | 856/977 [2:39:14<20:04,  9.95s/
+mean return = nan:  88%|███████████████████████████████████▉     | 857/977 [2:39:21<18:27,  9.23s/
+mean return = 44.735294342041016:  88%|██████████████████████▊   | 858/977 [2:39:32<19:05,  9.63s/
+mean return = nan:  88%|████████████████████████████████████     | 859/977 [2:39:47<22:01, 11.20s/
+mean return = nan:  88%|████████████████████████████████████     | 860/977 [2:40:02<23:58, 12.29s/
+mean return = nan:  88%|████████████████████████████████████▏    | 861/977 [2:40:16<25:14, 13.06s/
+mean return = 28.97222137451172:  88%|███████████████████████▊   | 862/977 [2:40:37<29:34, 15.43s/
+mean return = nan:  88%|████████████████████████████████████▏    | 863/977 [2:40:52<28:58, 15.25s/
+mean return = nan:  88%|████████████████████████████████████▎    | 864/977 [2:41:07<28:29, 15.13s/
+mean return = nan:  89%|████████████████████████████████████▎    | 865/977 [2:41:22<28:05, 15.05s/
+mean return = 34.735294342041016:  89%|███████████████████████   | 866/977 [2:41:43<30:55, 16.71s/
+mean return = nan:  89%|████████████████████████████████████▍    | 867/977 [2:41:57<29:37, 16.16s/
+mean return = nan:  89%|████████████████████████████████████▍    | 868/977 [2:42:12<28:38, 15.76s/
+mean return = nan:  89%|████████████████████████████████████▍    | 869/977 [2:42:27<27:53, 15.49s/
+mean return = 31.735294342041016:  89%|███████████████████████▏  | 870/977 [2:42:49<30:51, 17.30s/
+mean return = nan:  89%|████████████████████████████████████▌    | 871/977 [2:43:04<29:16, 16.57s/
+mean return = nan:  89%|████████████████████████████████████▌    | 872/977 [2:43:18<28:05, 16.05s/
+mean return = nan:  89%|████████████████████████████████████▋    | 873/977 [2:43:33<27:11, 15.69s/
+mean return = 30.323530197143555:  89%|███████████████████████▎  | 874/977 [2:43:55<29:54, 17.42s/
+mean return = nan:  90%|████████████████████████████████████▋    | 875/977 [2:45:11<59:48, 35.18s/
+mean return = 21.36111068725586:  90%|████████████████████████▏  | 876/977 [2:45:30<50:41, 30.11s/
+mean return = nan:  90%|████████████████████████████████████▊    | 877/977 [2:45:44<42:33, 25.53s/
+mean return = nan:  90%|████████████████████████████████████▊    | 878/977 [2:45:59<36:50, 22.33s/
+mean return = 26.852941513061523:  90%|███████████████████████▍  | 879/977 [2:46:19<35:08, 21.52s/
+mean return = nan:  90%|████████████████████████████████████▉    | 880/977 [2:46:34<31:32, 19.51s/
+mean return = nan:  90%|████████████████████████████████████▉    | 881/977 [2:46:49<28:59, 18.12s/
+mean return = nan:  90%|█████████████████████████████████████    | 882/977 [2:47:03<27:07, 17.13s/
+mean return = 29.235294342041016:  90%|███████████████████████▍  | 883/977 [2:47:23<27:56, 17.83s/
+mean return = nan:  90%|█████████████████████████████████████    | 884/977 [2:47:38<26:15, 16.94s/
+mean return = nan:  91%|█████████████████████████████████████▏   | 885/977 [2:47:53<25:00, 16.31s/
+mean return = nan:  91%|█████████████████████████████████████▏   | 886/977 [2:48:07<24:04, 15.87s/
+mean return = 32.264705657958984:  91%|███████████████████████▌  | 887/977 [2:48:28<25:57, 17.31s/
+mean return = nan:  91%|█████████████████████████████████████▎   | 888/977 [2:48:43<24:34, 16.57s/
+mean return = nan:  91%|█████████████████████████████████████▎   | 889/977 [2:48:58<23:32, 16.05s/
+mean return = nan:  91%|█████████████████████████████████████▎   | 890/977 [2:49:13<22:44, 15.69s/
+mean return = 34.79411697387695:  91%|████████████████████████▌  | 891/977 [2:49:34<25:02, 17.47s/
+mean return = nan:  91%|█████████████████████████████████████▍   | 892/977 [2:49:49<23:38, 16.69s/
+mean return = nan:  91%|█████████████████████████████████████▍   | 893/977 [2:50:04<22:35, 16.13s/
+mean return = nan:  92%|█████████████████████████████████████▌   | 894/977 [2:50:19<21:46, 15.74s/
+mean return = 28.882352828979492:  92%|███████████████████████▊  | 895/977 [2:50:42<24:30, 17.93s/
+mean return = nan:  92%|█████████████████████████████████████▌   | 896/977 [2:50:57<22:57, 17.01s/
+mean return = nan:  92%|█████████████████████████████████████▋   | 897/977 [2:51:12<21:48, 16.36s/
+mean return = 31.558822631835938:  92%|███████████████████████▉  | 898/977 [2:51:34<23:57, 18.20s/
+mean return = nan:  92%|█████████████████████████████████████▋   | 899/977 [2:51:49<22:21, 17.19s/
+mean return = nan:  92%|█████████████████████████████████████▊   | 900/977 [2:53:06<45:00, 35.08s/
+mean return = 24.705883026123047:  92%|███████████████████████▉  | 901/977 [2:53:16<35:05, 27.70s/
+mean return = nan:  92%|█████████████████████████████████████▊   | 902/977 [2:53:24<27:03, 21.65s/
+mean return = nan:  92%|█████████████████████████████████████▉   | 903/977 [2:53:31<21:29, 17.42s/
+mean return = nan:  93%|█████████████████████████████████████▉   | 904/977 [2:53:39<17:35, 14.46s/
+mean return = nan:  93%|█████████████████████████████████████▉   | 905/977 [2:53:46<14:51, 12.38s/
+mean return = nan:  93%|██████████████████████████████████████   | 906/977 [2:53:54<12:56, 10.94s/
+mean return = nan:  93%|██████████████████████████████████████   | 907/977 [2:54:01<11:34,  9.92s/
+mean return = 49.85293960571289:  93%|█████████████████████████  | 908/977 [2:54:12<11:47, 10.25s/
+mean return = nan:  93%|██████████████████████████████████████▏  | 909/977 [2:54:20<10:42,  9.44s/
+mean return = nan:  93%|██████████████████████████████████████▏  | 910/977 [2:54:28<09:54,  8.88s/
+mean return = nan:  93%|██████████████████████████████████████▏  | 911/977 [2:54:35<09:19,  8.47s/
+mean return = nan:  93%|██████████████████████████████████████▎  | 912/977 [2:54:43<08:52,  8.19s/
+mean return = nan:  93%|██████████████████████████████████████▎  | 913/977 [2:54:50<08:32,  8.01s/
+mean return = nan:  94%|██████████████████████████████████████▎  | 914/977 [2:54:58<08:15,  7.87s/
+mean return = nan:  94%|██████████████████████████████████████▍  | 915/977 [2:55:05<08:01,  7.77s/
+mean return = 53.25:  94%|████████████████████████████████████▌  | 916/977 [2:55:17<09:08,  8.99s/
+mean return = nan:  94%|██████████████████████████████████████▍  | 917/977 [2:55:25<08:33,  8.56s/
+mean return = nan:  94%|██████████████████████████████████████▌  | 918/977 [2:55:32<08:07,  8.26s/
+mean return = nan:  94%|██████████████████████████████████████▌  | 919/977 [2:55:40<07:46,  8.04s/
+mean return = nan:  94%|██████████████████████████████████████▌  | 920/977 [2:55:47<07:29,  7.89s/
+mean return = nan:  94%|██████████████████████████████████████▋  | 921/977 [2:55:55<07:16,  7.79s/
+mean return = nan:  94%|██████████████████████████████████████▋  | 922/977 [2:56:02<07:04,  7.72s/
+mean return = nan:  94%|██████████████████████████████████████▋  | 923/977 [2:56:10<06:53,  7.67s/
+mean return = 40.96875:  95%|██████████████████████████████████  | 924/977 [2:56:23<08:15,  9.35s/
+mean return = nan:  95%|██████████████████████████████████████▊  | 925/977 [2:57:32<23:36, 27.24s/
+mean return = 25.3125:  95%|███████████████████████████████████  | 926/977 [2:57:41<18:31, 21.80s/
+mean return = nan:  95%|██████████████████████████████████████▉  | 927/977 [2:57:49<14:36, 17.52s/
+mean return = nan:  95%|██████████████████████████████████████▉  | 928/977 [2:57:56<11:52, 14.53s/
+mean return = nan:  95%|██████████████████████████████████████▉  | 929/977 [2:58:04<09:56, 12.44s/
+mean return = nan:  95%|███████████████████████████████████████  | 930/977 [2:58:12<08:35, 10.97s/
+mean return = nan:  95%|███████████████████████████████████████  | 931/977 [2:58:19<07:37,  9.94s/
+mean return = nan:  95%|███████████████████████████████████████  | 932/977 [2:58:27<06:54,  9.22s/
+mean return = 47.5:  95%|██████████████████████████████████████▏ | 933/977 [2:58:37<07:01,  9.58s/
+mean return = nan:  96%|███████████████████████████████████████▏ | 934/977 [2:58:45<06:25,  8.97s/
+mean return = nan:  96%|███████████████████████████████████████▏ | 935/977 [2:58:52<05:58,  8.54s/
+mean return = nan:  96%|███████████████████████████████████████▎ | 936/977 [2:59:00<05:37,  8.24s/
+mean return = nan:  96%|███████████████████████████████████████▎ | 937/977 [2:59:07<05:21,  8.04s/
+mean return = nan:  96%|███████████████████████████████████████▎ | 938/977 [2:59:15<05:07,  7.89s/
+mean return = nan:  96%|███████████████████████████████████████▍ | 939/977 [2:59:22<04:55,  7.79s/
+mean return = nan:  96%|███████████████████████████████████████▍ | 940/977 [2:59:30<04:45,  7.71s/
+mean return = 47.97058868408203:  96%|██████████████████████████ | 941/977 [2:59:43<05:41,  9.48s/
+mean return = nan:  96%|███████████████████████████████████████▌ | 942/977 [2:59:58<06:28, 11.09s/
+mean return = nan:  97%|███████████████████████████████████████▌ | 943/977 [3:00:13<06:55, 12.22s/
+mean return = nan:  97%|███████████████████████████████████████▌ | 944/977 [3:00:28<07:09, 13.01s/
+mean return = 32.20588302612305:  97%|██████████████████████████ | 945/977 [3:00:48<08:04, 15.14s/
+mean return = nan:  97%|███████████████████████████████████████▋ | 946/977 [3:01:03<07:46, 15.05s/
+mean return = nan:  97%|███████████████████████████████████████▋ | 947/977 [3:01:18<07:29, 14.99s/
+mean return = nan:  97%|███████████████████████████████████████▊ | 948/977 [3:01:33<07:13, 14.95s/
+mean return = 29.91666603088379:  97%|██████████████████████████▏| 949/977 [3:01:54<07:54, 16.95s/
+mean return = nan:  97%|███████████████████████████████████████▊ | 950/977 [3:03:11<15:40, 34.82s/
+mean return = 22.58823585510254:  97%|██████████████████████████▎| 951/977 [3:03:21<11:54, 27.47s/
+mean return = nan:  97%|███████████████████████████████████████▉ | 952/977 [3:03:29<08:57, 21.49s/
+mean return = nan:  98%|███████████████████████████████████████▉ | 953/977 [3:03:36<06:55, 17.30s/
+mean return = nan:  98%|████████████████████████████████████████ | 954/977 [3:03:44<05:30, 14.38s/
+mean return = nan:  98%|████████████████████████████████████████ | 955/977 [3:03:51<04:31, 12.33s/
+mean return = nan:  98%|████████████████████████████████████████ | 956/977 [3:03:59<03:48, 10.90s/
+mean return = nan:  98%|████████████████████████████████████████▏| 957/977 [3:04:06<03:17,  9.89s/
+mean return = 51.40625:  98%|███████████████████████████████████▎| 958/977 [3:04:18<03:19, 10.52s/
+mean return = nan:  98%|████████████████████████████████████████▏| 959/977 [3:04:26<02:53,  9.62s/
+mean return = nan:  98%|████████████████████████████████████████▎| 960/977 [3:04:33<02:33,  9.00s/
+mean return = nan:  98%|████████████████████████████████████████▎| 961/977 [3:04:41<02:17,  8.57s/
+mean return = nan:  98%|████████████████████████████████████████▎| 962/977 [3:04:49<02:03,  8.26s/
+mean return = nan:  99%|████████████████████████████████████████▍| 963/977 [3:04:56<01:52,  8.04s/
+mean return = nan:  99%|████████████████████████████████████████▍| 964/977 [3:05:04<01:42,  7.89s/
+mean return = nan:  99%|████████████████████████████████████████▍| 965/977 [3:05:11<01:33,  7.79s/
+mean return = 54.375:  99%|█████████████████████████████████████▌| 966/977 [3:05:24<01:42,  9.33s/
+mean return = nan:  99%|████████████████████████████████████████▌| 967/977 [3:05:32<01:27,  8.79s/
+mean return = nan:  99%|████████████████████████████████████████▌| 968/977 [3:05:39<01:15,  8.42s/
+mean return = nan:  99%|████████████████████████████████████████▋| 969/977 [3:05:47<01:05,  8.15s/
+mean return = nan:  99%|████████████████████████████████████████▋| 970/977 [3:05:54<00:55,  7.98s/
+mean return = nan:  99%|████████████████████████████████████████▋| 971/977 [3:06:02<00:47,  7.85s/
+mean return = nan:  99%|████████████████████████████████████████▊| 972/977 [3:06:09<00:38,  7.76s/
+mean return = 53.0625: 100%|████████████████████████████████████▊| 973/977 [3:06:23<00:37,  9.49s/
+mean return = nan: 100%|████████████████████████████████████████▊| 974/977 [3:06:30<00:26,  8.91s/
+mean return = nan: 100%|████████████████████████████████████████▉| 975/977 [3:07:40<00:54, 27.02s/
+mean return = 25.34375: 100%|███████████████████████████████████▉| 976/977 [3:07:49<00:21, 21.65s/
+mean return = nan: 100%|█████████████████████████████████████████| 977/977 [3:07:59<00:00, 18.13s/
+wandb:
+wandb: Run history:
+wandb:  collection/agent/reward/episode_reward_max ▁▄▂▆▇▆▆▅▆▅▅▅▆▆▃▇▅▅▃▇▆▅▂▃▆▇▃▄█▆▇▇▆▄▅▇▇▄▇▇
+wandb: collection/agent/reward/episode_reward_mean ▁▂▃▂▆▆▅▃▆▃▇▆▆▇▇▅▅█▇▃▇▆█▄███▅██▆█▇▄▄▇▇▅▄█
+wandb:  collection/agent/reward/episode_reward_min ▂▃▃▄▆▄▂▇▆▆▃▇▇▇▅▄▇▇█▆▆█▇▆█▇█▃▇▇▄▄▆▁▁▁▁▁▁▇
+wandb:        collection/reward/episode_reward_max ▁▃▅▆▆▆▅▅▅▅▇▅▆▅▇▅▅▃▃▅▇▆▄▅▇▃▇▇▄█▆▄▅▆▅▆▇▅▄▄
+wandb:       collection/reward/episode_reward_mean ▂▅▆▅▆▇▁▆▆▁▅▁▆▆▆▅▆▆█▆▇▇▅▆▁▆▃▇▄▇▇▂▇█▆▄▆▂█▃
+wandb:        collection/reward/episode_reward_min ▁▂▃▂▃▅▂▅▆▂▅▅▂▆▆█▇▆▂▆▂█▆▂▆▅▇▇▁▇▆▅▆▇█▃▁▁▆▁
+wandb:                collection/reward/reward_max ▂▃▆▆▆▆▆█▃▆▆▆▆▆▆▂▃█▆▂▆▁▆▆▆▆▆▆▆▆▆▂▂▆▂▂▃▆▆▆
+wandb:               collection/reward/reward_mean ▄▄▄▆▆▄▆▅▅▃▅▆▅▆▃▅▇▇▅▁▆▅▄▆▃▅▅▆▅▅▇▄▂▆█▆▇▅▆▆
+wandb:                collection/reward/reward_min █▄█████████▃█▁█▁▃████▂████▂█████████▁███
+wandb:                     counters/current_frames ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                                         +24 ...
+wandb:
+wandb: Run summary:
+wandb:  collection/agent/reward/episode_reward_max 40
+wandb: collection/agent/reward/episode_reward_mean 25.34375
+wandb:  collection/agent/reward/episode_reward_min 7
+wandb:        collection/reward/episode_reward_max 40
+wandb:       collection/reward/episode_reward_mean 25.34375
+wandb:        collection/reward/episode_reward_min 7
+wandb:                collection/reward/reward_max 25
+wandb:               collection/reward/reward_mean 0.17236
+wandb:                collection/reward/reward_min 0
+wandb:                     counters/current_frames 1024
+wandb:                                         +24 ...
+wandb:
+wandb: 🚀 View run mappo_remedy_rush_multi_agent_2agents_seed0_20260317_002106 at: https://wandb.a
+i/sohamhan-usc/benchmarl-vizdoom/runs/mappo_remedy_rush_multi_agent_2agents_seed0_20260317_002106
+wandb: ⭐️ View project at: https://wandb.ai/sohamhan-usc/benchmarl-vizdoom
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./checkpoints/mappo_remedy_rush_multi_agent_cnn__2f598579_26_03_17-00_20_02/w
+andb/run-20260317_002106-mappo_remedy_rush_multi_agent_2agents_seed0_20260317_002106/logs
+mean return = nan: 100%|█████████████████████████████████████████| 977/977 [3:08:01<00:00, 11.55s/
+it]
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$ ^C
+(vizdoom) sohans@hats-01-ub:~/ViZDoom$ (ViZDoom) (vizdoom) sohans@hats-01-ub:~/ViZDoom$

@@ -32,6 +32,7 @@ def configure_doom_game(
         port: int,
         netmode: int,
         agent_idx: int,
+        objects_info: bool = False,
 ) -> vzd.DoomGame:
     """
     Create and configure a DoomGame instance without calling game.init().
@@ -55,6 +56,8 @@ def configure_doom_game(
         game.add_game_args(f"-join {host_address} -port {port} -netmode {netmode}")
     game.add_game_args(f"+name Player{agent_idx} +colorset {agent_idx}")
     game.add_game_args(f"+playernumber {agent_idx}")
+    if objects_info:
+        game.set_objects_info_enabled(True)
     return game
 
 

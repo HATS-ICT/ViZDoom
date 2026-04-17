@@ -50,7 +50,9 @@ package_data = [
 
 # Add subpackages
 def add_subpackage(dir_path):
-    shutil.copytree(dir_path, os.path.join(package_path, dir_path))
+    target = os.path.join(package_path, dir_path)
+    source = os.path.abspath(dir_path)
+    os.symlink(source, target)
     packages.append(f"vizdoom.{dir_path}")
     package_data.append(f"{dir_path}/*")
 

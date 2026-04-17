@@ -41,6 +41,7 @@ def make(
         video_fps: int = 35,
         verbose: bool = False,
         daemon: bool = True,
+        objects_info: bool = False,
 ):
     scenario = scenario.lower()
     cfg = config_file if config_file is not None else f"{_SCENARIO_DIR}/{scenario}.cfg"
@@ -61,6 +62,7 @@ def make(
         seed=seed,
         verbose=verbose,
         daemon=daemon,
+        objects_info=objects_info,
     )
 
     if enable_video:

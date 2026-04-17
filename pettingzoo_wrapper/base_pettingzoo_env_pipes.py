@@ -102,6 +102,10 @@ def _agent_process(
                     "step": steps,
                 }
                 info.update(get_flat_game_vars(state, available_game_vars))
+                if state and state.objects:
+                    info["objects"] = [(o.name, o.position_x, o.position_y) for o in state.objects]
+                else:
+                    info["objects"] = []
                 pipe_end.send({
                     "obs": read_frame(state, resolution),
                     "reward": 0.0,
@@ -136,6 +140,10 @@ def _agent_process(
                     "step": steps,
                 }
                 info.update(get_flat_game_vars(state, available_game_vars))
+                if state and state.objects:
+                    info["objects"] = [(o.name, o.position_x, o.position_y) for o in state.objects]
+                else:
+                    info["objects"] = []
                 pipe_end.send({
                     "obs": read_frame(state, resolution),
                     "reward": reward,
