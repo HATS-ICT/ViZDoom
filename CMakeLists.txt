@@ -14,6 +14,7 @@ set(ViZDoom_VERSION_ID ${ViZDoom_VERSION_MAJOR}${ViZDoom_VERSION_MINOR}${ViZDoom
 
 option(BUILD_PYTHON "Build ViZDoom Python (3) binding/module" ON)
 option(BUILD_ENGINE "Build ViZDoom Engine (required to build Python package)" ON)
+option(BUILD_ACC "Build the ACS compiler (acc) used for ACS script compilation. Unix only." ON)
 option(CREATE_PYTHON_STUBS "Build ViZDoom Python (3) .pyi type stubs" OFF)
 
 
@@ -188,6 +189,31 @@ set_target_properties(libvizdoom_shared
 
 if(BUILD_ENGINE)
     add_subdirectory(${VIZDOOM_SRC_DIR}/vizdoom)
+endif()
+
+
+# ACS compiler (acc)
+#-----------------------------------------------------------------------------------------------------------------------
+
+if(BUILD_ACC AND UNIX)
+    set(ACC_SRC_DIR ${VIZDOOM_SRC_DIR}/vendor/acc)
+    if(EXISTS ${ACC_SRC_DIR}/CMakeLists.txt)
+        add_subdirectory(${ACC_SRC_DIR})
+        set(ACC_INCLUDE_STAGE_DIR ${VIZDOOM_OUTPUT_DIR}/acc_includes)
+        add_custom_target(acc_stage_includes ALL
+            COMMAND ${CMAKE_COMMAND} -E make_directory ${ACC_INCLUDE_STAGE_DIR}
+            COMMAND ${CMAKE_COMMAND} -E copy
+                ${ACC_SRC_DIR}/zcommon.acs
+                ${ACC_SRC_DIR}/zspecial.acs
+                ${ACC_SRC_DIR}/zdefs.acs
+                ${ACC_SRC_DIR}/zwvars.acs
+                ${ACC_INCLUDE_STAGE_DIR}
+            COMMENT "Staging acc include files"
+        )
+        add_dependencies(acc_stage_includes acc)
+    else()
+        message(WARNING "BUILD_ACC=ON but ${ACC_SRC_DIR} is missing. Run 'git submodule update --init' to fetch it.")
+    endif()
 endif()
 
 

@@ -60,16 +60,17 @@ def add_subpackage(dir_path):
 add_subpackage("scenarios")
 add_subpackage("gymnasium_wrapper")
 add_subpackage("pettingzoo_wrapper")
+add_subpackage("scenario_building")
 
 # Platform specific package data
 if platform.startswith("win"):
     package_data.extend(["vizdoom.exe", "*.pyd", "*.dll"])
     library_extension = "lib"
 elif platform.startswith("darwin"):
-    package_data.extend(["vizdoom", "*.so"])
+    package_data.extend(["vizdoom", "*.so", "acc", "acc_includes/*.acs"])
     library_extension = "dylib"
 elif platform.startswith("linux"):
-    package_data.extend(["vizdoom", "*.so"])
+    package_data.extend(["vizdoom", "*.so", "acc", "acc_includes/*.acs"])
     library_extension = "so"
 else:
     raise RuntimeError(f"Unsupported platform: {sys.platform}")
@@ -266,7 +267,7 @@ setup(
             "isort",
         ],
     },
-    install_requires=["numpy", "gymnasium>=0.28.0", "pygame-ce>=2.1.3"],
+    install_requires=["numpy", "gymnasium>=0.28.0", "pygame-ce>=2.1.3", "omgifol>=0.5"],
     python_requires=">=3.9.0,<3.15",
     packages=packages,
     package_dir={"": package_root},

@@ -102,6 +102,18 @@ set_target_properties(assemble_package
 # vizdoom, vizdoom.pk3 are needed to assemble the package
 add_dependencies(assemble_package libvizdoom_python vizdoom pk3)
 
+# Ship the ACS compiler (acc) and its include headers alongside the package
+if(BUILD_ACC AND UNIX AND TARGET acc)
+    add_custom_command(TARGET assemble_package POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:acc> ${VIZDOOM_PYTHON_PACKAGE_DIR}
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+            ${VIZDOOM_OUTPUT_DIR}/acc_includes
+            ${VIZDOOM_PYTHON_PACKAGE_DIR}/acc_includes
+        COMMENT "Copying acc binary and includes into Python package"
+    )
+    add_dependencies(assemble_package acc)
+endif()
+
 # Generate type stubs using pybind11-stubgen and copy vizdoom.pyi & py.typed to the package
 if (CREATE_PYTHON_STUBS)
     add_custom_command(

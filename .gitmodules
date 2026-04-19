@@ -1,3 +1,6 @@
 [submodule "src/lib_python/pybind11"]
 	path = src/lib_python/pybind11
 	url = https://github.com/pybind/pybind11
+[submodule "src/vendor/acc"]
+	path = src/vendor/acc
+	url = https://github.com/rheit/acc.git

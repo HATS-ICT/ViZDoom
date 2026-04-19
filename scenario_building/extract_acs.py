@@ -1,50 +1,59 @@
-"""Extract ACS source (SCRIPTS) and compiled bytecode (BEHAVIOR) from a WAD.
+"""CLI: extract the ACS source (SCRIPTS lump) from a WAD.
 
-Walks both Doom-format and UDMF maps and also dumps any global ACS / LOADACS
-lumps. SCRIPTS is written as a .acs source file; BEHAVIOR as a .o bytecode file.
+Usage:
+    python -m scenario_building.extract_acs WAD [--map MAP01] [--output FILE]
+
+Prints the source to stdout if ``--output`` is omitted.
 """
 
+from __future__ import annotations
+
+import argparse
 import sys
 from pathlib import Path
 
-from omg import WAD
-
-ACS_LUMPS = {"SCRIPTS", "BEHAVIOR", "ACS", "LOADACS"}
-
-
-def dump_lump(lump, out_path: Path) -> int:
-    data = lump.data
-    out_path.write_bytes(data)
-    return len(data)
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from scenario_building.acs_patch import extract_acs_source, list_maps
+else:
+    from .acs_patch import extract_acs_source, list_maps
 
 
-def extract(wad_path: Path, out_dir: Path) -> None:
-    out_dir.mkdir(parents=True, exist_ok=True)
-    wad = WAD(str(wad_path))
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("wad", help="Input WAD path.")
+    parser.add_argument(
+        "--map",
+        dest="map_name",
+        default=None,
+        help="Map name inside the WAD. Auto-detected if the WAD has exactly one map.",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Destination file. Defaults to stdout.",
+    )
+    parser.add_argument(
+        "--list-maps",
+        action="store_true",
+        help="Print the WAD's map names and exit without extracting.",
+    )
+    args = parser.parse_args()
 
-    print(f"[wad] {wad_path.name}")
+    if args.list_maps:
+        for name in list_maps(args.wad):
+            print(name)
+        return
 
-    for kind, container in (("doom", wad.maps), ("udmf", getattr(wad, "udmfmaps", {}))):
-        for map_name in container.keys():
-            map_group = container[map_name]
-            for lump_name in map_group.keys():
-                if lump_name not in ACS_LUMPS:
-                    continue
-                ext = ".acs" if lump_name == "SCRIPTS" else ".o"
-                out_path = out_dir / f"{map_name}_{lump_name}{ext}"
-                size = dump_lump(map_group[lump_name], out_path)
-                print(f"  [{kind}] {map_name}/{lump_name}: {size} B -> {out_path.name}")
-
-    for lump_name in wad.data.keys():
-        if lump_name not in ACS_LUMPS:
-            continue
-        ext = ".acs" if lump_name == "SCRIPTS" else ".o"
-        out_path = out_dir / f"GLOBAL_{lump_name}{ext}"
-        size = dump_lump(wad.data[lump_name], out_path)
-        print(f"  [global] {lump_name}: {size} B -> {out_path.name}")
+    source = extract_acs_source(args.wad, map_name=args.map_name)
+    if args.output is None:
+        sys.stdout.write(source)
+    else:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(source, encoding="utf-8")
+        print(f"[done] {args.output}", file=sys.stderr)
 
 
 if __name__ == "__main__":
-    wad_path = Path(sys.argv[1])
-    out_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("acs") / wad_path.stem
-    extract(wad_path, out_dir)
+    main()

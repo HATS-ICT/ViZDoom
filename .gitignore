@@ -122,3 +122,8 @@ src/vizdoom/zlib/CTestTestfile.cmake
 
 # Checkpoint folder
 checkpoints/
+
+# scenario_building scratch outputs (extracted ACS / compiled WAD variants)
+scenario_building/acs/
+scenario_building/out/
+scenario_building/__pycache__/
