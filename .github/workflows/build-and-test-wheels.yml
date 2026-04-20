@@ -55,7 +55,7 @@ jobs:
         uses: pypa/cibuildwheel@v3.3.1
         env:
           # Configure cibuildwheel to build native archs, and some emulated ones
-          CIBW_ARCHS_LINUX: x86_64 aarch64
+          CIBW_ARCHS_LINUX: x86_64
           CIBW_BUILD_VERBOSITY: 1
 
       - name: Build macOS Apple Silicon wheels
