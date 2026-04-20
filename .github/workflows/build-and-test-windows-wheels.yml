@@ -23,8 +23,6 @@ on:
       - 'setup.py'
       - 'pyproject.toml'
     branches: [master]
-  release:
-    types: [published]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
